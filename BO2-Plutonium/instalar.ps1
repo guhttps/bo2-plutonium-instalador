@@ -3,14 +3,23 @@ param(
     [string]$PastaJogos = (Join-Path $env:USERPROFILE 'Games\BO2-Plutonium'),
     [switch]$SomenteBaixar,
     [switch]$SemAbrir,
-    [switch]$Torrent
+    [switch]$Torrent,
+    [string]$StatusPath,
+    [string]$CancelPath,
+    [int]$OwnerProcessId=0
 )
 
 . (Join-Path $PSScriptRoot 'Funcoes.ps1')
+. (Join-Path $PSScriptRoot 'Progresso.ps1')
+Initialize-SetupProgress -StatusPath $StatusPath -CancelPath $CancelPath -OwnerProcessId $OwnerProcessId
 
 function Invoke-GameDownload {
     param($Metadata, [string]$CachePath, [string]$Destination, [switch]$UseTorrent)
+    Assert-SetupNotCancelled
+    Write-SetupStatus -Stage 'preparing' -Message 'Preparando o download...'
     $aria = Get-Aria2 -CachePath $CachePath
+    $totalBytes = [long](($Metadata.Files | Measure-Object -Property Length -Sum).Sum)
+    $totalFiles = @($Metadata.Files).Count
     $common = @('--no-conf=true', '--check-integrity=true', '--file-allocation=none',
         '--auto-file-renaming=false', '--enable-color=false', '--summary-interval=15',
         '--download-result=hide', '--console-log-level=warn', '--connect-timeout=20', '--timeout=60')
@@ -20,8 +29,8 @@ function Invoke-GameDownload {
             ('--dir=' + $Destination), ('--dht-file-path=' + (Join-Path $CachePath 'dht.dat')),
             ('--dht-file-path6=' + (Join-Path $CachePath 'dht6.dat')),
             (Join-Path $PSScriptRoot 'pluto_t6_full_game.torrent'))
-        & $aria @options
-        if ($LASTEXITCODE -ne 0) { throw "Torrent interrompido (codigo $LASTEXITCODE). Execute novamente para retomar, ou use INSTALAR.cmd para tentar HTTP." }
+        $downloadCode = Invoke-AriaDownload -AriaPath $aria -Options $options -TotalBytes $totalBytes -TotalFiles $totalFiles -TorrentMode
+        if ($downloadCode -ne 0) { throw "Torrent interrompido (codigo $downloadCode). Execute novamente para retomar, ou use INSTALAR.cmd para tentar HTTP." }
         return
     }
     $manifestPath = Join-Path $PSScriptRoot 'arquivos-http.json'
@@ -59,15 +68,21 @@ function Invoke-GameDownload {
         ('--log=' + (Join-Path $CachePath 'download.log')), '--log-level=notice', ('--input-file=' + $inputPath))
     for ($attempt = 1; $attempt -le 2; $attempt++) {
         Write-Host "Download HTTP, tentativa $attempt/2. Arquivos completos sao reaproveitados."
-        & $aria @options
-        if ($LASTEXITCODE -eq 0) { return }
+        Assert-SetupNotCancelled
+        $downloadCode = Invoke-AriaDownload -AriaPath $aria -Options $options -TotalBytes $totalBytes -TotalFiles $totalFiles
+        if ($downloadCode -eq 0) { return }
     }
     throw 'O download HTTP ficou incompleto. Execute INSTALAR.cmd para retomar. Se a fonte estiver fora do ar, tente ALTERNATIVA-TORRENT.cmd.'
 }
 
 function Invoke-FullSetup {
+    Assert-SetupNotCancelled
+    Write-SetupStatus -Stage 'preparing' -Message 'Preparando a instalacao...'
     if (-not [Environment]::Is64BitOperatingSystem -or [Environment]::OSVersion.Version.Major -lt 10) {
         throw 'Use Windows 10 ou 11 de 64 bits.'
+    }
+    if (-not $SomenteBaixar -and @(Get-Process -Name 'plutonium-launcher-win32','plutonium-bootstrapper-win32','plutonium' -ErrorAction SilentlyContinue).Count -gt 0) {
+        throw 'Feche o Plutonium e o jogo antes de iniciar a instalacao.'
     }
     if ($PastaJogos -match '[\r\n\t]' -or -not [IO.Path]::IsPathRooted($PastaJogos)) { throw 'Pasta de destino invalida.' }
     $destination = [IO.Path]::GetFullPath($PastaJogos)
@@ -92,9 +107,16 @@ function Invoke-FullSetup {
         $metadata = [Bo2Torrent]::Load($torrentPath)
         if ($metadata.InfoHash -ne '228d582decc9415565f1413cd1b755cad3d8a490') { throw 'Infohash inesperado.' }
         Write-Host '[1/5] Verificando arquivos existentes...'
+        Write-SetupStatus -Stage 'verifying' -Message 'Conferindo arquivos existentes...' -Percent 0
+        $verifyProgress = [Action[long,long]]{
+            param($done, $total)
+            Assert-SetupNotCancelled
+            Write-Progress -Activity 'Verificando integridade do BO2' -PercentComplete ([int](100*$done/$total))
+            Write-SetupStatus -Stage 'verifying' -Message 'Verificando a integridade dos arquivos...' -Percent (100.0*$done/$total) -CompletedBytes $done -TotalBytes $total -Throttle
+        }
         $valid = $false
-        try { $metadata.Verify($destination, $null); $valid = $true }
-        catch { Write-Host 'Ha arquivos para baixar ou reparar.' }
+        try { $metadata.Verify($destination, $verifyProgress); $valid = $true }
+        catch { Assert-SetupNotCancelled; Write-Host 'Ha arquivos para baixar ou reparar.' }
         if (-not $valid) {
             $driveRoot = [IO.Path]::GetPathRoot($destination)
             $drive = New-Object IO.DriveInfo($driveRoot)
@@ -102,11 +124,10 @@ function Invoke-FullSetup {
             Invoke-GameDownload -Metadata $metadata -CachePath $cachePath -Destination $destination -UseTorrent:$Torrent
         }
         Write-Host '[2/5] Conferindo todos os blocos com o torrent original...'
+        Assert-SetupNotCancelled
         if (-not $valid) {
-            $metadata.Verify($destination, [Action[long,long]]{
-                param($done, $total)
-                Write-Progress -Activity 'Verificando integridade do BO2' -PercentComplete ([int](100 * $done / $total))
-            })
+            Write-SetupStatus -Stage 'verifying' -Message 'Conferindo o download completo...' -Percent 0
+            $metadata.Verify($destination, $verifyProgress)
         }
         Write-Progress -Activity 'Verificando integridade do BO2' -Completed
         $gamePath = Join-Path $destination $metadata.Name
@@ -114,10 +135,14 @@ function Invoke-FullSetup {
         if ($SomenteBaixar) { Write-Host ('Download concluido: ' + $gamePath); return }
 
         Write-Host '[3/5] Preparando componentes Microsoft...'
+        Assert-SetupNotCancelled
+        Write-SetupStatus -Stage 'components' -Message 'Preparando componentes Microsoft. Confirme a janela do Windows se for solicitado.' -Cancellable $false
         & (Join-Path $PSScriptRoot 'componentes.ps1') -GamePath $gamePath -CachePath $cachePath
         if ($LASTEXITCODE -ne 0) { throw 'A instalacao dos componentes ficou pendente. Execute novamente.' }
+        Assert-SetupNotCancelled
 
         Write-Host '[4/5] Instalando/atualizando o cliente oficial do Plutonium...'
+        Write-SetupStatus -Stage 'client' -Message 'Instalando e atualizando o Plutonium...' -Cancellable $false
         $launcherPath = Join-Path $installPath 'plutonium.exe'
         if (@(Get-Process -Name 'plutonium-launcher-win32', 'plutonium-bootstrapper-win32', 'plutonium' -ErrorAction SilentlyContinue).Count -gt 0) {
             throw 'Feche o Plutonium e o jogo e execute o instalador novamente. Os downloads serao reaproveitados.'
@@ -126,10 +151,12 @@ function Invoke-FullSetup {
         $clientPath = Join-Path $env:LOCALAPPDATA 'Plutonium'
         $updater = Start-Process -FilePath $launcherPath -ArgumentList '-update-only' -PassThru
         Wait-PlutoniumUpdate -Process $updater
+        Assert-SetupNotCancelled
         foreach ($relative in @('bin\plutonium-launcher-win32.exe', 'bin\plutonium-bootstrapper-win32.exe')) {
             if (-not (Test-Executable -Path (Join-Path $clientPath $relative))) { throw "Arquivo do cliente ausente: $relative" }
         }
         Write-Host '[5/5] Configurando o jogo e criando atalho...'
+        Write-SetupStatus -Stage 'configuring' -Message 'Configurando a pasta do jogo e criando o atalho...' -Cancellable $false
         Set-GamePath -ConfigPath (Join-Path $clientPath 'config.json') -GamePath $gamePath
         $desktop = [Environment]::GetFolderPath('Desktop')
         $shell = New-Object -ComObject WScript.Shell
@@ -149,11 +176,28 @@ function Invoke-FullSetup {
 }
 
 if ($MyInvocation.InvocationName -ne '.') {
-    try { Invoke-FullSetup }
+    $setupMutex = [Threading.Mutex]::new($false,('Local\BO2-Plutonium-Install-'+[Security.Principal.WindowsIdentity]::GetCurrent().User.Value))
+    $ownsMutex = $false
+    try {
+        try { $ownsMutex = $setupMutex.WaitOne(0) } catch [Threading.AbandonedMutexException] { $ownsMutex = $true }
+        if (-not $ownsMutex) { throw 'Ja existe outra instalacao em andamento. Aguarde sua conclusao.' }
+        Invoke-FullSetup
+        $message = if ($SomenteBaixar) { 'Download concluido e arquivos verificados.' } else { 'Instalacao concluida! Entre na sua conta no Plutonium e escolha PLAY.' }
+        Write-SetupStatus -Stage 'complete' -State 'complete' -Message $message -Percent 100 -Cancellable $false
+    }
     catch {
         Write-Progress -Activity 'Verificando integridade do BO2' -Completed
+        if (Test-SetupCancellation) {
+            Write-SetupStatus -Stage 'cancelled' -State 'cancelled' -Message 'Instalacao interrompida. Continue depois usando a mesma pasta.' -Cancellable $false
+            exit 2
+        }
+        Write-SetupStatus -Stage 'error' -State 'error' -Message $_.Exception.Message -Cancellable $false
         Write-Host ('Instalacao incompleta: ' + $_.Exception.Message) -ForegroundColor Red
         Write-Host 'Os arquivos baixados ficam salvos para a proxima tentativa.'
         exit 1
+    }
+    finally {
+        if ($ownsMutex) { $setupMutex.ReleaseMutex() }
+        $setupMutex.Dispose()
     }
 }

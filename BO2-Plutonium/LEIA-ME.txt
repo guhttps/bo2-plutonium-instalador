@@ -7,11 +7,13 @@ COMO ENVIAR E INSTALAR
 
 1. Envie BO2-Plutonium.zip aos seus amigos.
 2. Cada pessoa extrai TODOS os arquivos do ZIP para uma pasta.
-3. Execute INSTALAR.cmd com dois cliques.
-4. Aguarde o download e a verificacao. O jogo tem 14,54 GB (13,54 GiB).
+3. Execute INSTALAR.cmd com dois cliques. Na janela, escolha a pasta
+   e clique em Instalar agora.
+4. Acompanhe o percentual geral, a velocidade e o tempo estimado.
+   O jogo tem 14,54 GB (13,54 GiB). A verificacao possui seu proprio progresso.
 5. Confirme a janela do Windows se for necessario instalar componentes
    Microsoft que ainda nao estejam presentes.
-6. O Plutonium abre ao concluir. Cada pessoa entra com sua propria conta,
+6. Ao concluir, clique em Abrir Plutonium. Cada pessoa entra com sua conta,
    escolhe Black Ops 2 Multiplayer ou Zombies e clica em PLAY.
    Cadastro: https://forum.plutonium.pw/register
 
@@ -36,10 +38,15 @@ e da conexao de cada PC.
 
 SE O DOWNLOAD CAIR OU O PC DESLIGAR
 
-Execute INSTALAR.cmd novamente. Os arquivos completos sao conferidos
+Use Interromper na janela para salvar o andamento. Clique em Continuar
+instalacao ou execute INSTALAR.cmd novamente e escolha a MESMA PASTA.
+Os arquivos completos sao conferidos
 e reaproveitados; transferencias com controle .aria2 sao retomadas.
 Arquivos corrompidos podem precisar ser baixados novamente.
 Nao apague os arquivos .aria2 enquanto o download estiver incompleto.
+O botao Interromper fica indisponivel nas etapas de componentes e
+atualizacao do cliente. Aguarde essas etapas terminarem.
+Abra Detalhes da instalacao na janela para consultar o registro do processo.
 
 Se o download HTTP estiver indisponivel, execute ALTERNATIVA-TORRENT.cmd.
 Essa alternativa usa o torrent original e depende de participantes ativos

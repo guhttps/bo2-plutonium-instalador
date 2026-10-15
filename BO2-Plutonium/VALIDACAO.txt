@@ -1,5 +1,25 @@
 VALIDACAO REALIZADA EM 15/10/2026
 
+INTERFACE v1.1.0
+
+- Janela WPF com escolha de pasta, progresso por bytes de todos os
+  arquivos, velocidade e tempo estimado.
+- Testes com arquivos de tamanhos diferentes, transferencias com erro
+  e mudanca de estado durante a consulta: sem contagem duplicada.
+- Download real de arquivos pequenos por servidor HTTP local usando
+  aria2 com RPC autenticado, restrito a conexoes locais.
+- Interrupcao durante uma transferencia, encerramento do downloader,
+  preservacao dos controles .aria2 e retomada com hashes corretos.
+- Comunicacao de status entre processo de instalacao e janela,
+  formatacao de valores, estado interrompido e verificacao de sintaxe.
+- Fluxo completo pela janela neste PC usando o jogo existente:
+  verificacao acompanhada na interface, atualizacao/configuracao
+  concluidas, progresso final de 100% e botao Abrir Plutonium liberado.
+- Argumentos entre processos conferidos com raiz de disco, espacos,
+  acentos, barra final e aspas; erros de saida nao indicam sucesso.
+
+VALIDACOES DO INSTALADOR E DOS ARQUIVOS
+
 - Download completo dos arquivos do jogo: 14.540.713.332 bytes.
 - Os 525 arquivos foram conferidos e todos os 55.469 blocos passaram
   na verificacao com o torrent original do Plutonium.
