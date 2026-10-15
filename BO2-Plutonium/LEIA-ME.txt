@@ -6,7 +6,8 @@ pacote T6 do Plutonium. A campanha nao faz parte desse pacote.
 COMO ENVIAR E INSTALAR
 
 1. Envie BO2-Plutonium.zip aos seus amigos.
-2. Cada pessoa extrai TODOS os arquivos do ZIP para uma pasta.
+2. Cada pessoa clica com o botao direito no ZIP e escolhe Extrair Tudo...
+   Nao execute INSTALAR.cmd de dentro do arquivo compactado.
 3. Execute INSTALAR.cmd com dois cliques. Na janela, escolha a pasta
    e clique em Instalar agora.
 4. Acompanhe o percentual geral, a velocidade e o tempo estimado.
@@ -28,6 +29,13 @@ O QUE O INSTALADOR FAZ
 - Preenche t6Path em config.json, preservando outras configuracoes e
   criando uma copia de seguranca caso ja exista um arquivo.
 - Cria o atalho Plutonium - BO2 na area de trabalho e abre o launcher.
+
+SE APARECER QUE instalar.ps1 NAO EXISTE OU QUE O PACOTE ESTA INCOMPLETO
+
+Feche o assistente, clique com o botao direito em BO2-Plutonium.zip e
+escolha Extrair Tudo... Depois, abra INSTALAR.cmd na pasta extraida,
+fora do ZIP. O pacote completo possui 13 arquivos. Se ja extraiu tudo e
+o aviso continuar, baixe novamente o ZIP completo e extraia em uma nova pasta.
 
 REQUISITOS
 

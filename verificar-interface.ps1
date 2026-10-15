@@ -98,6 +98,57 @@ try {
     $requestedPreview = $PreviewPath
     . (Join-Path $packagePath 'Interface.ps1')
     $script:GuiControls.Path.Text='D:\Jogos\BO2-Plutonium'
+    Assert-InstallerPackage -Path $packagePath
+    $partialPath=Join-Path $testPath 'pacote parcial com espaço'
+    New-Item -ItemType Directory -Path $partialPath | Out-Null
+    Get-ChildItem -LiteralPath $packagePath -File | Where-Object Name -ne 'instalar.ps1' | Copy-Item -Destination $partialPath
+    $completePackagePath=$script:GuiPackagePath
+    try {
+        $script:GuiPackagePath=$partialPath
+        $rejected=$false
+        try { Start-InstallerWorker } catch {
+            $rejected=$_.Exception.Message -match 'Extrair Tudo' -and $_.Exception.Message -match 'instalar\.ps1'
+        }
+        if (-not $rejected -or $null -ne $script:GuiWorker -or $script:GuiBusy) {
+            throw 'Pacote parcial iniciou um processo ou nao explicou como extrair o ZIP.'
+        }
+    } finally { $script:GuiPackagePath=$completePackagePath }
+
+    # Uma interface inofensiva permite testar os CMDs sem abrir outra janela.
+    [IO.File]::WriteAllText((Join-Path $partialPath 'Interface.ps1'), '[IO.File]::WriteAllText((Join-Path $PSScriptRoot ''iniciado.txt''),''ok'')')
+    function Invoke-BatchFixture {
+        param([string]$Path)
+        $process=[Diagnostics.Process]::new()
+        $process.StartInfo.FileName=$env:ComSpec
+        $process.StartInfo.Arguments='/d /c ""'+$Path+'""'
+        $process.StartInfo.UseShellExecute=$false
+        $process.StartInfo.CreateNoWindow=$true
+        $process.StartInfo.RedirectStandardInput=$true
+        $process.StartInfo.RedirectStandardOutput=$true
+        $process.StartInfo.RedirectStandardError=$true
+        try {
+            [void]$process.Start()
+            $process.StandardInput.Close()
+            if (-not $process.WaitForExit(15000)) { $process.Kill(); $process.WaitForExit(); throw 'A abertura do CMD nao encerrou no teste.' }
+            [pscustomobject]@{Code=$process.ExitCode;Output=$process.StandardOutput.ReadToEnd()+$process.StandardError.ReadToEnd()}
+        } finally { $process.Dispose() }
+    }
+    foreach ($entry in @('INSTALAR.cmd','ALTERNATIVA-TORRENT.cmd')) {
+        $result=Invoke-BatchFixture -Path (Join-Path $partialPath $entry)
+        if ($result.Code -ne 1 -or $result.Output -notmatch 'Extrair Tudo' -or $result.Output -notmatch 'instalar\.ps1' -or
+            [IO.File]::Exists((Join-Path $partialPath 'iniciado.txt'))) {
+            throw ('CMD nao bloqueou o pacote parcial: '+$entry+' | '+$result.Output)
+        }
+    }
+    [IO.File]::WriteAllText((Join-Path $partialPath 'instalar.ps1'),'# Fixture: nao instala nem baixa arquivos.')
+    foreach ($entry in @('INSTALAR.cmd','ALTERNATIVA-TORRENT.cmd')) {
+        $result=Invoke-BatchFixture -Path (Join-Path $partialPath $entry)
+        if ($result.Code -ne 0 -or -not [IO.File]::Exists((Join-Path $partialPath 'iniciado.txt'))) {
+            throw ('CMD nao abriu um pacote completo: '+$entry+' | '+$result.Output)
+        }
+        [IO.File]::Delete((Join-Path $partialPath 'iniciado.txt'))
+    }
+    Write-Host 'OK: pacote sem instalar.ps1 bloqueado na janela e nos dois CMDs; extracao completa permite a abertura.'
     $sample = [pscustomobject]@{State='running';Stage='download';Message='Baixando arquivos do jogo...';Percent=37.5;CompletedBytes=5452767499L;TotalBytes=14540713332L;Speed=12000000L;CompletedFiles=201;TotalFiles=525;Cancellable=$true}
     Set-InstallerSnapshot $sample
     if ($script:GuiControls.Progress.Value -ne 37.5 -or $script:GuiControls.Speed.Text -ne '12,0 MB/s' -or $script:GuiControls.Eta.Text -eq '—') { throw 'A janela nao exibiu os dados reais do status.' }

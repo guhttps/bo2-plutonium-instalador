@@ -7,6 +7,25 @@ Add-Type -AssemblyName PresentationFramework
 Add-Type -AssemblyName PresentationCore
 Add-Type -AssemblyName WindowsBase
 Add-Type -AssemblyName System.Windows.Forms
+$script:GuiPackagePath = $PSScriptRoot
+
+function Assert-InstallerPackage {
+    param([string]$Path)
+    $required = @('Interface.ps1','instalar.ps1','Funcoes.ps1','Progresso.ps1',
+        'componentes.ps1','TorrentVerifier.cs','arquivos-http.json','pluto_t6_full_game.torrent')
+    $missing = @($required | Where-Object { -not [IO.File]::Exists((Join-Path $Path $_)) })
+    if ($missing.Count -gt 0) {
+        throw ("O pacote está incompleto. Feche esta janela e clique com o botão direito em BO2-Plutonium.zip > Extrair Tudo… Depois, abra INSTALAR.cmd dentro da pasta extraída, fora do ZIP.`n`nArquivos ausentes: "+($missing -join ', ')+".`nSe já extraiu tudo, baixe novamente o ZIP completo e extraia em uma nova pasta.")
+    }
+}
+
+if ($MyInvocation.InvocationName -ne '.') {
+    try { Assert-InstallerPackage -Path $script:GuiPackagePath }
+    catch {
+        [void][Windows.MessageBox]::Show($_.Exception.Message,'Extraia todos os arquivos','OK','Warning')
+        exit 1
+    }
+}
 . (Join-Path $PSScriptRoot 'Progresso.ps1')
 
 function Format-DownloadSize {
@@ -81,6 +100,7 @@ function Save-InstallerPreview {
 }
 
 function Start-InstallerWorker {
+    Assert-InstallerPackage -Path $script:GuiPackagePath
     $selectedPath = $script:GuiControls.Path.Text.Trim()
     if (-not $selectedPath -or $selectedPath -match '[\r\n\t"]' -or -not [IO.Path]::IsPathRooted($selectedPath)) {
         throw 'Escolha uma pasta com caminho completo, como D:\Jogos\BO2-Plutonium.'
@@ -94,7 +114,7 @@ function Start-InstallerWorker {
     $script:GuiCancelPath = Join-Path $sessionPath 'cancelar'
     $script:GuiOutputPath = Join-Path $sessionPath 'instalacao.log'
     $script:GuiErrorPath = Join-Path $sessionPath 'erros.log'
-    $workerArguments = @('-NoLogo','-NoProfile','-ExecutionPolicy','Bypass','-File',(Join-Path $PSScriptRoot 'instalar.ps1'),'-PastaJogos',$selectedPath,'-StatusPath',$script:GuiStatusPath,'-CancelPath',$script:GuiCancelPath,'-OwnerProcessId',$PID.ToString(),'-SemAbrir')
+    $workerArguments = @('-NoLogo','-NoProfile','-ExecutionPolicy','Bypass','-File',(Join-Path $script:GuiPackagePath 'instalar.ps1'),'-PastaJogos',$selectedPath,'-StatusPath',$script:GuiStatusPath,'-CancelPath',$script:GuiCancelPath,'-OwnerProcessId',$PID.ToString(),'-SemAbrir')
     if ($Torrent) { $workerArguments += '-Torrent' }
     $arguments = ($workerArguments | ForEach-Object { ConvertTo-NativeArgument $_ }) -join ' '
     $script:GuiWorker = Start-Process -FilePath (Join-Path $PSHOME 'powershell.exe') -ArgumentList $arguments -WindowStyle Hidden -PassThru -RedirectStandardOutput $script:GuiOutputPath -RedirectStandardError $script:GuiErrorPath

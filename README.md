@@ -19,6 +19,12 @@ Instalador com interface para Windows que baixa e prepara **Black Ops II Multipl
 
 O instalador configura a pasta do jogo e cria um atalho na área de trabalho.
 
+### Se aparecer que `instalar.ps1` não existe
+
+Feche o assistente. Clique com o botão direito em `BO2-Plutonium.zip` e escolha **Extrair Tudo…**. Abra a pasta extraída e execute `INSTALAR.cmd` de lá. Abrir o instalador diretamente dentro do ZIP pode disponibilizar apenas parte dos arquivos em uma pasta temporária.
+
+O pacote completo contém 13 arquivos. A abertura verifica os arquivos necessários e orienta a extração se faltar algum. Se já extraiu tudo e o aviso continuar, baixe novamente o ZIP completo pelo link acima e extraia em uma nova pasta.
+
 ## Requisitos
 
 - Windows 10 ou 11 de 64 bits.
