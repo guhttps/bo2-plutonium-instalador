@@ -1,9 +1,10 @@
 ﻿[CmdletBinding()]
-param([switch]$Download, [string]$CachePath=(Join-Path $env:LOCALAPPDATA 'BO2-Plutonium-Assistente\cache'), [string]$PreviewPath)
+param([switch]$Download, [string]$CachePath=(Join-Path $env:LOCALAPPDATA 'BO2-Plutonium-Assistente\cache'), [string]$PreviewPath,
+    [string]$PackagePath)
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
-$packagePath = Join-Path $PSScriptRoot 'BO2-Plutonium'
+if (-not $PackagePath) { $PackagePath = Join-Path $PSScriptRoot 'BO2-Plutonium' }
 . (Join-Path $packagePath 'Funcoes.ps1')
 . (Join-Path $packagePath 'Progresso.ps1')
 $active = @(

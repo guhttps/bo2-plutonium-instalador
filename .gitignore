@@ -9,3 +9,4 @@ config.json
 config.json.backup-*
 .env
 .env.*
+dist/

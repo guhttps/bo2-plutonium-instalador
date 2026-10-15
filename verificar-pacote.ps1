@@ -1,6 +1,8 @@
+param([string]$PackagePath)
+
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
-$packagePath = Join-Path $PSScriptRoot 'BO2-Plutonium'
+if (-not $PackagePath) { $PackagePath = Join-Path $PSScriptRoot 'BO2-Plutonium' }
 foreach ($script in (Get-ChildItem -LiteralPath $packagePath -Filter '*.ps1')) {
     $tokens = $null
     $parseErrors = $null

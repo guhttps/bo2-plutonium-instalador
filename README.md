@@ -1,5 +1,7 @@
 # Instalador BO2 + Plutonium para Windows
 
+[![Verificar e publicar ZIP](https://github.com/guhttps/bo2-plutonium-instalador/actions/workflows/pacote.yml/badge.svg)](https://github.com/guhttps/bo2-plutonium-instalador/actions/workflows/pacote.yml)
+
 Instalador com interface para Windows que baixa e prepara **Black Ops II Multiplayer, Zombies e DLCs** com o Plutonium. Escolha a pasta e acompanhe o progresso geral, a velocidade e o tempo estimado na janela. O jogo tem **14,54 GB**; o ZIP do assistente tem aproximadamente **1,1 MB** e faz o download durante a instalação.
 
 ![Janela do instalador, com seleção de pasta e progresso geral](docs/interface.png)
@@ -83,3 +85,42 @@ powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -File .\verificar-interfa
 ```
 
 Esse teste usa um servidor HTTP local com arquivos pequenos, interrompe e retoma a transferência e confere os hashes. Ele baixa apenas o aria2 do projeto oficial caso o programa ainda não esteja no cache; os 14,54 GB do jogo não são baixados pelo teste.
+
+## ZIP e versões automáticas
+
+A cada atualização enviada para `main` e em cada pull request, o [GitHub Actions](https://github.com/guhttps/bo2-plutonium-instalador/actions/workflows/pacote.yml) executa o processo em um Windows separado:
+
+1. Confere os arquivos obrigatórios e os hashes dos metadados originais.
+2. Gera `BO2-Plutonium.zip`, extrai e compara todos os arquivos por SHA-256.
+3. Testa o conteúdo extraído: verificador de integridade, configuração, janela, progresso, download, interrupção e retomada.
+4. Disponibiliza o ZIP aprovado e `BO2-Plutonium.zip.sha256` em **Artifacts**, na página da execução, por 30 dias. É necessário entrar no GitHub para baixar esses artefatos.
+
+Se qualquer verificação falhar, o fluxo falha e não publica uma nova versão. Os testes automáticos usam arquivos pequenos; não baixam o jogo nem validam partidas online.
+
+Para publicar uma versão estável, envie as alterações e uma **nova tag** no formato `vMAJOR.MINOR.PATCH`:
+
+```powershell
+git push origin main
+git tag v1.2.0
+git push origin v1.2.0
+```
+
+Escolha um número ainda não utilizado. O fluxo da tag repete os testes e publica **o mesmo ZIP aprovado**, com seu checksum, em [Releases](https://github.com/guhttps/bo2-plutonium-instalador/releases). Ao final, baixa o arquivo publicado e confere o hash novamente. O link **Baixar BO2-Plutonium.zip** deste README passa a apontar para a nova versão automaticamente. Versões já publicadas não são sobrescritas.
+
+Também é possível executar a geração pela opção **Run workflow** na aba Actions, sem publicar uma versão. O fluxo usa o token temporário do próprio GitHub; não precisa cadastrar senha ou token pessoal nos secrets.
+
+Para gerar e testar o mesmo pacote localmente:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\criar-pacote.ps1
+```
+
+Os arquivos aprovados ficam em `dist`. Para conferir um ZIP baixado, coloque o ZIP e o arquivo `.sha256` na mesma pasta e execute nela:
+
+```powershell
+$esperado = ((Get-Content .\BO2-Plutonium.zip.sha256 -Raw).Trim() -split '\s+')[0]
+if ((Get-FileHash .\BO2-Plutonium.zip -Algorithm SHA256).Hash -ine $esperado) {
+    throw 'O ZIP não corresponde ao checksum publicado.'
+}
+'Checksum confere.'
+```
