@@ -1,0 +1,11 @@
+* text=auto
+*.ps1 text eol=lf
+*.cs text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+# These bytes are distributed directly or checked against fixed hashes.
+*.cmd -text
+*.torrent binary
+BO2-Plutonium/arquivos-http.json -text

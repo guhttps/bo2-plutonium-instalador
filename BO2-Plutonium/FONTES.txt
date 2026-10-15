@@ -1,0 +1,65 @@
+FONTES E INTEGRIDADE
+Pesquisa e verificacao em 15/10/2026.
+
+JOGO: antigo pacote Plutonium T6, Multiplayer + Zombies + DLCs.
+14.540.713.332 bytes, 525 arquivos, 55.469 blocos de ate 256 KiB.
+
+Torrent preservado do endereco original:
+https://web.archive.org/web/20230501000000id_/https://plutonium.pw/pluto_t6_full_game.torrent
+
+Outra copia encontrada:
+https://kippykip.com/attachments/pluto_t6_full_game-torrent.1009/
+Pagina de origem dessa copia:
+https://kippykip.com/threads/call-of-duty-plutonium-torrents.5005/
+
+As duas copias baixadas tinham o mesmo SHA256:
+96A4BEECEF0CC0BA8CDD0D59F54ECC7721E837A44A9ECD78AE5834D18D2A2D89
+
+Infohash original, usado para validar os dados do jogo:
+228d582decc9415565f1413cd1b755cad3d8a490
+
+Arquivo HTTP dos arquivos do jogo:
+https://archive.org/details/pluto_t6_full_game_202408
+Localizacao atual dos servidores, consultada durante a instalacao:
+https://archive.org/metadata/pluto_t6_full_game_202408
+
+O manifesto arquivos-http.json lista somente os 525 arquivos presentes
+no torrent, com tamanhos e SHA1. Os blocos finais sao conferidos com
+o torrent original, independentemente dos hashes publicados na copia HTTP.
+SHA256 do manifesto incluido:
+E7A96F8DC7D7F04B4E19E684001FDD6290CF9F8FE6921788361D82BBA89CCBCF
+
+PLUTONIUM: launcher e atualizacao pelo proprio fornecedor
+https://plutonium.pw/docs/install/
+https://cdn.plutonium.pw/updater/plutonium.exe
+https://forum.plutonium.pw/topic/26939/change-launcher-data-location-with-argument-s
+
+Configuracao t6Path documentada pela equipe do Plutonium:
+https://forum.plutonium.pw/topic/24917/setup-button-doesn-t-work/14
+
+ARIA2: programa de download, obtido do repositorio do proprio projeto
+https://github.com/aria2/aria2/releases/tag/release-1.37.0
+https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip
+SHA256 do ZIP:
+67D015301EEF0B612191212D564C5BB0A14B5B9C4796B76454276A4D28D9B288
+SHA256 de aria2c.exe extraido:
+BE2099C214F63A3CB4954B09A0BECD6E2E34660B886D4C898D260FEBFE9D70C2
+Documentacao: https://aria2.github.io/manual/en/html/aria2c.html
+O assistente baixa o programa do fornecedor; o ZIP deste assistente nao
+redistribui esse executavel.
+
+COMPONENTES: instaladores Microsoft, somente se ausentes
+Visual C++ v14 x86:
+https://aka.ms/vc14/vc_redist.x86.exe
+Documentacao:
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+
+Visual C++ 2005, 2008 e 2010 x86 usam os enderecos Microsoft tambem
+usados pelo atualizador oficial do Plutonium. O DirectX usa DXSETUP.exe
+do redist original, depois da verificacao integral dos dados do torrent.
+Todos esses instaladores precisam ter assinatura Microsoft valida.
+
+Video de referencia:
+https://www.youtube.com/watch?v=kNrAWYx8znw
+O conteudo integral do video nao estava acessivel para comparacao.
+O instalador foi preparado a partir das fontes listadas acima.

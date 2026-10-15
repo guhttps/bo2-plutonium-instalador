@@ -1,0 +1,77 @@
+BLACK OPS 2 + PLUTONIUM - INSTALACAO AUTOMATICA
+
+Inclui download dos arquivos de Multiplayer, Zombies e DLCs do antigo
+pacote T6 do Plutonium. A campanha nao faz parte desse pacote.
+
+COMO ENVIAR E INSTALAR
+
+1. Envie BO2-Plutonium.zip aos seus amigos.
+2. Cada pessoa extrai TODOS os arquivos do ZIP para uma pasta.
+3. Execute INSTALAR.cmd com dois cliques.
+4. Aguarde o download e a verificacao. O jogo tem 14,54 GB (13,54 GiB).
+5. Confirme a janela do Windows se for necessario instalar componentes
+   Microsoft que ainda nao estejam presentes.
+6. O Plutonium abre ao concluir. Cada pessoa entra com sua propria conta,
+   escolhe Black Ops 2 Multiplayer ou Zombies e clica em PLAY.
+   Cadastro: https://forum.plutonium.pw/register
+
+O QUE O INSTALADOR FAZ
+
+- Baixa os 525 arquivos do jogo por HTTP, com retomada e SHA1 por arquivo.
+- Confere TODOS os 55.469 blocos contra o torrent original do Plutonium.
+- Instala componentes Microsoft ausentes, verificando a assinatura digital
+  antes de executar cada instalador de componente.
+- Baixa o launcher diretamente do site oficial do Plutonium.
+- Atualiza os arquivos do cliente usando o proprio atualizador oficial.
+- Preenche t6Path em config.json, preservando outras configuracoes e
+  criando uma copia de seguranca caso ja exista um arquivo.
+- Cria o atalho Plutonium - BO2 na area de trabalho e abre o launcher.
+
+REQUISITOS
+
+Windows 10 ou 11 de 64 bits, internet, placa compativel com DirectX 11
+e pelo menos 18 GB livres no disco do jogo. Reserve tambem 1 GB livre
+em C: para o cliente e os componentes. A velocidade depende da fonte
+e da conexao de cada PC.
+
+SE O DOWNLOAD CAIR OU O PC DESLIGAR
+
+Execute INSTALAR.cmd novamente. Os arquivos completos sao conferidos
+e reaproveitados; transferencias com controle .aria2 sao retomadas.
+Arquivos corrompidos podem precisar ser baixados novamente.
+Nao apague os arquivos .aria2 enquanto o download estiver incompleto.
+
+Se o download HTTP estiver indisponivel, execute ALTERNATIVA-TORRENT.cmd.
+Essa alternativa usa o torrent original e depende de participantes ativos
+da rede BitTorrent. Ha compartilhamento durante o download, limitado a
+128 KiB/s, e ele termina ao concluir. Algumas redes bloqueiam BitTorrent.
+
+ONDE FICAM OS ARQUIVOS
+
+Jogo:
+%USERPROFILE%\Games\BO2-Plutonium\pluto_t6_full_game
+
+Launcher, cache do assistente e registros:
+%LOCALAPPDATA%\BO2-Plutonium-Assistente
+
+Cliente e configuracoes do Plutonium:
+%LOCALAPPDATA%\Plutonium
+
+Depois de instalar, o ZIP e a pasta extraida do assistente podem ser
+apagados. Mantenha a pasta do jogo e as pastas instaladas em AppData.
+
+Para usar outro disco, abra o PowerShell na pasta extraida e execute:
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\instalar.ps1 -PastaJogos "D:\Jogos\BO2-Plutonium"
+
+CONTAS, REDE E VERIFICACAO
+
+O assistente nao cria contas, nao pede senhas nem armazena credenciais.
+O login acontece diretamente no launcher oficial. Para jogar pela internet,
+cada amigo precisa entrar na sua propria conta do Plutonium.
+Conectividade entre amigos e servidores depende da rede de cada PC.
+Integridade dos arquivos nao substitui um teste de partida online.
+
+As fontes e os hashes usados estao em FONTES.txt. Os arquivos do jogo
+foram recuperados de um arquivo historico; nao sao um download de jogo
+oferecido pelo site atual do Plutonium. Este assistente nao e um produto
+oficial da equipe do Plutonium.

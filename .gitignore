@@ -1,0 +1,11 @@
+.cache*/
+.verificacao-*/
+BO2-Jogo/
+*.log
+*.aria2
+*.download
+*.tmp
+config.json
+config.json.backup-*
+.env
+.env.*

@@ -1,0 +1,36 @@
+VALIDACAO REALIZADA EM 15/10/2026
+
+- Download completo dos arquivos do jogo: 14.540.713.332 bytes.
+- Os 525 arquivos foram conferidos e todos os 55.469 blocos passaram
+  na verificacao com o torrent original do Plutonium.
+- Instalacao executada neste PC com Windows de 64 bits e PowerShell 5.1,
+  usando um caminho com espacos.
+- Atualizacao pelo programa oficial e fechamento automatico da janela
+  final do atualizador: verificados.
+- Configuracao t6Path e criacao do atalho: verificadas.
+- Launcher oficial aberto ao final.
+- Inicializacao de Multiplayer e Zombies em LAN com Plutonium r5369:
+  processos e janelas criados, arquivos dos dois modos carregados.
+- Download por meio do script final e recuperacao de um arquivo
+  corrompido propositalmente: verificados.
+- Transferencia interrompida com 96.294 bytes baixados: retomada pelo
+  script final, concluida e aprovada pelo hash do arquivo.
+- Verificador testado com blocos que atravessam dois arquivos, ultimo
+  bloco parcial, dados corrompidos, arquivos truncados e caminho com ..
+- Preservacao de outras configuracoes, backup e rejeicao de JSON
+  invalido: verificados.
+- Rejeicao de HTML no lugar de executavel e de SHA256 incorreto:
+  verificadas, preservando o arquivo anterior.
+
+LIMITES DO QUE FOI TESTADO
+
+Nao foi feito login em uma conta do Plutonium nem testada uma partida
+online com amigos ou servidores. A verificacao em LAN cobriu a
+inicializacao dos modos; nao cobriu uma partida completa ou todos os mapas.
+Os componentes Microsoft ja estavam presentes neste PC, portanto a
+instalacao desses componentes em um Windows limpo nao foi exercitada.
+Outros computadores, redes e mudancas futuras nas fontes nao foram
+testados. Esses pontos impedem prometer funcionamento de 100% dos casos.
+
+O ZIP contem apenas scripts, instrucoes e metadados de download.
+Nenhuma conta, senha, token ou configuracao pessoal foi incluida.

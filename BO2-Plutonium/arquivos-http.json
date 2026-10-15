@@ -1,0 +1,2627 @@
+﻿[
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2005_d3dx9_25_x64.cab",
+        "size":  "1347354",
+        "sha1":  "0830cc54adec654ab4394032ec4e046185ba01e5"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2005_d3dx9_25_x86.cab",
+        "size":  "1078962",
+        "sha1":  "1abe9f17489e389e7400dea76a0386873446e9cc"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2006_d3dx9_30_x64.cab",
+        "size":  "1397830",
+        "sha1":  "69091c7d92b1cc64f8d4e5b4042e418e2bc84f3b"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2006_d3dx9_30_x86.cab",
+        "size":  "1115221",
+        "sha1":  "9e9506be3079eed1791831193503acf35ebe3301"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2006_MDX1_x86_Archive.cab",
+        "size":  "4162630",
+        "sha1":  "60588991ae2ad6dfd2124c5c57eb5b7799355639"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2006_MDX1_x86.cab",
+        "size":  "916430",
+        "sha1":  "0aed07d86c81453ced3889f20b1912de7eb2fd4f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2006_XACT_x64.cab",
+        "size":  "179133",
+        "sha1":  "2824b71881fae7d7e95bcd0bb87af7781519c325"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2006_XACT_x86.cab",
+        "size":  "133103",
+        "sha1":  "9b5e9ed65a8a23e80bffa272cfe48354e62fd96a"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2006_xinput_x64.cab",
+        "size":  "87101",
+        "sha1":  "c2339f30db281ad6f0dc1548727f24e050b1c84e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Apr2006_xinput_x86.cab",
+        "size":  "46010",
+        "sha1":  "7f6b492f9a24af217753621e6eae23a9eb81ff2f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/APR2007_d3dx10_33_x64.cab",
+        "size":  "698612",
+        "sha1":  "52ef8d34285fb4cb1d8cab84a1654abc2d0dd77f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/APR2007_d3dx10_33_x86.cab",
+        "size":  "695865",
+        "sha1":  "3749dce941e880fe11f451ce11ce4b0753574506"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/APR2007_d3dx9_33_x64.cab",
+        "size":  "1607358",
+        "sha1":  "eb3bbd9de097558664b036e5b90145c5348f33db"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/APR2007_d3dx9_33_x86.cab",
+        "size":  "1606039",
+        "sha1":  "48db572e4e14e3cfa56fcda43bc4529d8b58aecf"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/APR2007_XACT_x64.cab",
+        "size":  "195766",
+        "sha1":  "7ba1dbd540142423df7ddd5b165da9550c397716"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/APR2007_XACT_x86.cab",
+        "size":  "151225",
+        "sha1":  "02043cd1b6f0e7e06932d210422d34eadfdca437"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/APR2007_xinput_x64.cab",
+        "size":  "96817",
+        "sha1":  "26b3616d7321978bd45656391a75ee231196a4a2"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/APR2007_xinput_x86.cab",
+        "size":  "53302",
+        "sha1":  "92f32e74944e5166db72d3bfe8e6401d9f7521dd"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2005_d3dx9_27_x64.cab",
+        "size":  "1350542",
+        "sha1":  "c3412728d632da9b4433dc30a0e53863198971bf"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2005_d3dx9_27_x86.cab",
+        "size":  "1077644",
+        "sha1":  "3fa025c7810b23e8f83b8f93dd818fb652e590cd"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2006_XACT_x64.cab",
+        "size":  "182903",
+        "sha1":  "631f1d92633c6655afa445f9f2a218820ea7a1f6"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2006_XACT_x86.cab",
+        "size":  "137235",
+        "sha1":  "91ddf1ac4f5b4bb7b7d2bdc5268622e17c55a5db"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2006_xinput_x64.cab",
+        "size":  "87142",
+        "sha1":  "0a6e2b8b170271c8e2fba304cf31e74f67130cd1"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2006_xinput_x86.cab",
+        "size":  "46058",
+        "sha1":  "69b2ec8c1007dda8da339d40ba1f2bea041859bc"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2007_d3dx10_35_x64.cab",
+        "size":  "852286",
+        "sha1":  "e13210cd0a12e419429bc435a2cbac8db0873b64"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2007_d3dx10_35_x86.cab",
+        "size":  "796867",
+        "sha1":  "55ae4d88ee2dd49d2c07bed604b22fa405529023"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2007_d3dx9_35_x64.cab",
+        "size":  "1800160",
+        "sha1":  "5d3f94e81c1173c9595ac6038a78075dc7a2f99c"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2007_d3dx9_35_x86.cab",
+        "size":  "1708152",
+        "sha1":  "494c030afae884e5a15be5cedad8915ee0015c49"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2007_XACT_x64.cab",
+        "size":  "198096",
+        "sha1":  "19f229335832671e827f03ea47a4b550b4789a83"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/AUG2007_XACT_x86.cab",
+        "size":  "153012",
+        "sha1":  "a96d18ab55129420f90e07b1407cd10806e4686a"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2008_d3dx10_39_x64.cab",
+        "size":  "867612",
+        "sha1":  "763b54ef10693f6e14489c9b155faa0efb48110a"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2008_d3dx10_39_x86.cab",
+        "size":  "849167",
+        "sha1":  "479c42f5a0c416ebcdb0cf3b842b3f8537776ef9"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2008_d3dx9_39_x64.cab",
+        "size":  "1794084",
+        "sha1":  "d339e86c699698ee7e0a309759ffe605aba62624"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2008_d3dx9_39_x86.cab",
+        "size":  "1464672",
+        "sha1":  "cb97984f33c2ae9c8f6d4c6e8e284dc9635982cb"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2008_XACT_x64.cab",
+        "size":  "121772",
+        "sha1":  "47d24b82d33a2168d2abe186ce3b2afbb7e5d7fe"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2008_XACT_x86.cab",
+        "size":  "92996",
+        "sha1":  "329314453aec833a24fef9f7840903d1cdb62ecc"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2008_XAudio_x64.cab",
+        "size":  "271412",
+        "sha1":  "f26b8e666de6188c9008c22e9500e3d946f6fa07"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2008_XAudio_x86.cab",
+        "size":  "271038",
+        "sha1":  "5579788beda1de0d4895aa0910f451b4178d12e6"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_D3DCompiler_42_x64.cab",
+        "size":  "919044",
+        "sha1":  "ca342565c4d9b40e9e7313c2f63bdcedd13ea2b5"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_D3DCompiler_42_x86.cab",
+        "size":  "900598",
+        "sha1":  "7cc9b777f4cea1cc977d48b11fe92e7bb2a17072"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_d3dcsx_42_x64.cab",
+        "size":  "3112111",
+        "sha1":  "42d76e85919b84ef4cb28c9337f796861d7b1345"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_d3dcsx_42_x86.cab",
+        "size":  "3319740",
+        "sha1":  "7450ad46e2e01a0aab1c4cced180b657b5fcfa41"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_d3dx10_42_x64.cab",
+        "size":  "232635",
+        "sha1":  "f484265f86e53ed660926f872ad3f8fae724b332"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_d3dx10_42_x86.cab",
+        "size":  "192131",
+        "sha1":  "9f22ca76618c287ee04bb9f5bf37c18f616a51b6"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_d3dx11_42_x64.cab",
+        "size":  "136301",
+        "sha1":  "8a75ff4250a81e30f6d1d802d33aa8b2948212f0"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_d3dx11_42_x86.cab",
+        "size":  "105044",
+        "sha1":  "ac9532720a850c59a6e9a1a3430c0a3672d394c1"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_d3dx9_42_x64.cab",
+        "size":  "930116",
+        "sha1":  "37940ccc5dc1fd410bbe6667e78ad7ca8fd2e1fb"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_d3dx9_42_x86.cab",
+        "size":  "728456",
+        "sha1":  "6f3d87ee3995a768e2e965a0caf7de55f07d68e3"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_XACT_x64.cab",
+        "size":  "122408",
+        "sha1":  "8b3088e9bf5d0e8c36cbb16a477c4850e7d34dbc"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_XACT_x86.cab",
+        "size":  "93106",
+        "sha1":  "d21aded173bd94207033d41ab2f2bd819d2dd197"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_XAudio_x64.cab",
+        "size":  "273264",
+        "sha1":  "293790d66e85ad052bb20a4797bac4a3683ed52a"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Aug2009_XAudio_x86.cab",
+        "size":  "272642",
+        "sha1":  "5590363627d1b5695347e3ca7c220b63c98c8f75"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Dec2005_d3dx9_28_x64.cab",
+        "size":  "1357976",
+        "sha1":  "6af009e1d9d0bcc1c54509b90bda22def3b67a6e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Dec2005_d3dx9_28_x86.cab",
+        "size":  "1079456",
+        "sha1":  "ba1ddc5df441dfc58d52a25cc8903fb8f549e7ee"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/DEC2006_d3dx10_00_x64.cab",
+        "size":  "212807",
+        "sha1":  "53354e500a7438833896be0e09bd2e3380ff333e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/DEC2006_d3dx10_00_x86.cab",
+        "size":  "191720",
+        "sha1":  "c5823166904fb73a22ab9b75a391786471e496ab"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/DEC2006_d3dx9_32_x64.cab",
+        "size":  "1571154",
+        "sha1":  "a12a8ffa9d216dd0efff847c0a695c25f8d626fb"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/DEC2006_d3dx9_32_x86.cab",
+        "size":  "1574376",
+        "sha1":  "c0f1d1b6b6663ed60aa0446086d40a9961c622bb"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/DEC2006_XACT_x64.cab",
+        "size":  "192475",
+        "sha1":  "a68d47b6dab23eec0c41e5b4b73b4ad7918f8d40"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/DEC2006_XACT_x86.cab",
+        "size":  "145599",
+        "sha1":  "0fc3276fb8cdbaffd200d2888bd7fe7dcad657bd"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/dsetup32.dll",
+        "size":  "1566040",
+        "sha1":  "76c4bd2d8f359f7689415efc15e3743d35673ae8"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/DSETUP.dll",
+        "size":  "95576",
+        "sha1":  "7897418f0fae737a3ebe4f7954118d71c6c8b426"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/dxdllreg_x86.cab",
+        "size":  "44624",
+        "sha1":  "d8d857ebbe2c0dd5b63e564bf8428c55ece55778"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/dx.inf",
+        "size":  "34",
+        "sha1":  "a325f12d94bfd1e9dd9f26374063cbfc9ca33a3c"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/DXSETUP.exe",
+        "size":  "517976",
+        "sha1":  "9fd00f3bb8a870112dae464f555fcd5e7f9200c0"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/dxupdate.cab",
+        "size":  "97152",
+        "sha1":  "5885ece90970eb10b6b95d6c52d934674835929e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2005_d3dx9_24_x64.cab",
+        "size":  "1247499",
+        "sha1":  "253aef9afbbb0bb8f7c68f2ff8ffd51d89a60a67"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2005_d3dx9_24_x86.cab",
+        "size":  "1013225",
+        "sha1":  "7872beaf83ea8e57543331fada1bcfe808529f18"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2006_d3dx9_29_x64.cab",
+        "size":  "1362796",
+        "sha1":  "d862b27b79952a264500806beab9a66c7d43a861"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2006_d3dx9_29_x86.cab",
+        "size":  "1084720",
+        "sha1":  "050dee7c3f81554a17b3a58c1348eb469050a05a"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2006_XACT_x64.cab",
+        "size":  "178359",
+        "sha1":  "23474ae12d9ff57b152d65a3d25d61786b9f268d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2006_XACT_x86.cab",
+        "size":  "132409",
+        "sha1":  "d011a66320e99263562ffea53f5e2868010a494d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/FEB2007_XACT_x64.cab",
+        "size":  "194675",
+        "sha1":  "368236e7c3fdad2d3e6a66577c3a2799adad6d6d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/FEB2007_XACT_x86.cab",
+        "size":  "147983",
+        "sha1":  "53b773b46a4a1ae6e452dc7ca0737f296435405c"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2010_X3DAudio_x64.cab",
+        "size":  "54678",
+        "sha1":  "fabca8c0aa28164ef4fdb7ee4ae8942a275b1713"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2010_X3DAudio_x86.cab",
+        "size":  "20713",
+        "sha1":  "c6ee8cff225019a93308c896146d94b00fd5417e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2010_XACT_x64.cab",
+        "size":  "122446",
+        "sha1":  "9b045137fb7c84fa7e7d5feb4c221f162c57c453"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2010_XACT_x86.cab",
+        "size":  "93180",
+        "sha1":  "6c4f43618c2ab1abee42aa0ac262de18c2df3d32"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2010_XAudio_x64.cab",
+        "size":  "276960",
+        "sha1":  "bb9e24e50981284f07edeac79a62da427ed7265c"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Feb2010_XAudio_x86.cab",
+        "size":  "277191",
+        "sha1":  "26662c7823d75fddf99195aae9ce15d6b7409b9e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2005_d3dx9_26_x64.cab",
+        "size":  "1336002",
+        "sha1":  "cfe5b5c96f7754853d54de7aceda5d0ea9e9afe0"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2005_d3dx9_26_x86.cab",
+        "size":  "1064925",
+        "sha1":  "f7f6a524a23a056defdcda0bf5fa983434619bf1"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2006_XACT_x64.cab",
+        "size":  "180785",
+        "sha1":  "05ede9687fa06a994749bf967a0ee961fb52fa6e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2006_XACT_x86.cab",
+        "size":  "133671",
+        "sha1":  "0e1990eba1abe75ba3e44e7b9d74f82c1c468b29"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2007_d3dx10_34_x64.cab",
+        "size":  "699044",
+        "sha1":  "d902c484e2e300e56c3979d7d4c32df87a99f9c2"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2007_d3dx10_34_x86.cab",
+        "size":  "698472",
+        "sha1":  "b7c483264a0ef937205c6bb404582e68b3d74c90"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2007_d3dx9_34_x64.cab",
+        "size":  "1607774",
+        "sha1":  "317c12a3293a608561b559391e9ef3f3b256a85d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2007_d3dx9_34_x86.cab",
+        "size":  "1607286",
+        "sha1":  "d9615c2c506943fd90ab19f8af9c10d9a60a06f3"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2007_XACT_x64.cab",
+        "size":  "197122",
+        "sha1":  "baf2b9f12ace63c40bcbc3a096e90462b2b93be3"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2007_XACT_x86.cab",
+        "size":  "152909",
+        "sha1":  "4750437448c6f923ee42baa271bc812c6ba16dc0"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_d3dx10_38_x64.cab",
+        "size":  "867828",
+        "sha1":  "0e2dc32aa9024b04b6c55fef532acde719d0633a"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_d3dx10_38_x86.cab",
+        "size":  "849919",
+        "sha1":  "cd49bca41ff1d48b44eaf5d179f4cf12de6de6e0"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_d3dx9_38_x64.cab",
+        "size":  "1792608",
+        "sha1":  "5e469b92554e563a757270580f3121e2ca17c8ec"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_d3dx9_38_x86.cab",
+        "size":  "1463878",
+        "sha1":  "47ec96848afb9c990fb4e15137ee02267077b87e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_X3DAudio_x64.cab",
+        "size":  "55154",
+        "sha1":  "41920f21e0995774b55834839e6e515d3b43a89d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_X3DAudio_x86.cab",
+        "size":  "21905",
+        "sha1":  "01c6d05b057381bf8776a76eb7caea68a3c1a3ba"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_XACT_x64.cab",
+        "size":  "121054",
+        "sha1":  "a365583595cea5f16780d415548ab51a29ad0a4d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_XACT_x86.cab",
+        "size":  "93128",
+        "sha1":  "af8fb53957d5cf185cff3efcefaa42ee1cd4dd69"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_XAudio_x64.cab",
+        "size":  "269628",
+        "sha1":  "c7e07795ab516b396f7b565fc669cbb9acd32a5d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/JUN2008_XAudio_x86.cab",
+        "size":  "269024",
+        "sha1":  "d19798473ee0fd401e89fe80d3b51e65e440b00c"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_D3DCompiler_43_x64.cab",
+        "size":  "944460",
+        "sha1":  "1b3f6cf35dc745ea8748dae910f704b124e69f73"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_D3DCompiler_43_x86.cab",
+        "size":  "931471",
+        "sha1":  "8417886d47c19cf6892f4080ddd5aaa1a49db3e9"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_d3dcsx_43_x64.cab",
+        "size":  "752783",
+        "sha1":  "9679e7f294ca9de945b6f4f3d775d739dc2f8cd1"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_d3dcsx_43_x86.cab",
+        "size":  "762188",
+        "sha1":  "4560c64f8b6bbdeedd85398f2e18404c389e4d8b"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_d3dx10_43_x64.cab",
+        "size":  "235955",
+        "sha1":  "3b8114a8820a8df9df2321d6c4da8ea155ce736f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_d3dx10_43_x86.cab",
+        "size":  "197283",
+        "sha1":  "18803d4bcc83ad39f25ff9f899baf136c89c10f1"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_d3dx11_43_x64.cab",
+        "size":  "138205",
+        "sha1":  "9439907a1000b9dcb8989ffbd828e6294c277fba"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_d3dx11_43_x86.cab",
+        "size":  "109445",
+        "sha1":  "66d12509137f2b5e1a668df39e6ccce6402822c3"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_d3dx9_43_x64.cab",
+        "size":  "937246",
+        "sha1":  "daccf01b4b7493b88f04f9e50fe37c03846335ad"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_d3dx9_43_x86.cab",
+        "size":  "768036",
+        "sha1":  "bce9f21cdb1e101c7223c9e62eca61ec22d6bb81"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_XACT_x64.cab",
+        "size":  "124596",
+        "sha1":  "b39e51423debe470be4ab4e16685a928f3f12787"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_XACT_x86.cab",
+        "size":  "93686",
+        "sha1":  "afd6de1263765302c639dbff0b47fd5f3763ac3f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_XAudio_x64.cab",
+        "size":  "277338",
+        "sha1":  "358e429ac3b125cc7fe4f9ea46cdca4583cbb1a9"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Jun2010_XAudio_x86.cab",
+        "size":  "278060",
+        "sha1":  "2df40d48c69d7cfb4e0c19f07a019f5f123303fa"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_d3dx10_37_x64.cab",
+        "size":  "844884",
+        "sha1":  "fc223a386a465d7842c923c28d0c6055ebc8ef6f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_d3dx10_37_x86.cab",
+        "size":  "818260",
+        "sha1":  "1ac3bef214fcc29c04f60008f04d75841c82b690"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_d3dx9_37_x64.cab",
+        "size":  "1769862",
+        "sha1":  "7c6c6cfd1986636df4f09ac0a745de4a992e940f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_d3dx9_37_x86.cab",
+        "size":  "1443282",
+        "sha1":  "97646b2edfaaf691b8bc9bd9699f0cbaea724e75"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_X3DAudio_x64.cab",
+        "size":  "55058",
+        "sha1":  "c2ad2509cab80c0a7cdd1059826e8cf0c010b142"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_X3DAudio_x86.cab",
+        "size":  "21867",
+        "sha1":  "e67b645948436ffc50808bd3fe1ea3972971fa77"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_XACT_x64.cab",
+        "size":  "122336",
+        "sha1":  "3c0fcf61365707232128be7ea1f868c8e585b6fb"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_XACT_x86.cab",
+        "size":  "93734",
+        "sha1":  "cb61fdbf85eb20b603684826bf4573f95a60b06b"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_XAudio_x64.cab",
+        "size":  "251194",
+        "sha1":  "9d035a59bd9f9af517f0d1c666e6d742cadf6fe9"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2008_XAudio_x86.cab",
+        "size":  "226250",
+        "sha1":  "c98c8e24f334db418f5cf7cdfdcf3675d500c76d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_d3dx10_41_x64.cab",
+        "size":  "1067160",
+        "sha1":  "66556d2165a7ec107737b465fe3e43833626a19d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_d3dx10_41_x86.cab",
+        "size":  "1040745",
+        "sha1":  "bf1c7e72d2fbb53e8888a11a6f3d59367dca6009"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_d3dx9_41_x64.cab",
+        "size":  "1973702",
+        "sha1":  "e486f9279b8be8c71f29760b37b52f8bbdfe589f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_d3dx9_41_x86.cab",
+        "size":  "1612446",
+        "sha1":  "f22a61c817eb47537c3270b0915ec6b95226f030"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_X3DAudio_x64.cab",
+        "size":  "54600",
+        "sha1":  "2fd1af40cec68f1680f7867a679b554c85836845"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_X3DAudio_x86.cab",
+        "size":  "21298",
+        "sha1":  "88ec665c9593ca22e98901fa2443540526f8435f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_XACT_x64.cab",
+        "size":  "121506",
+        "sha1":  "67a88e79b45e2c7df1ac1496287bd53733d2d856"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_XACT_x86.cab",
+        "size":  "92740",
+        "sha1":  "cd84f6459507152fce7b19dc54d881ee0464abfe"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_XAudio_x64.cab",
+        "size":  "275044",
+        "sha1":  "494079e510453dcedfac5aea6134d903750b6bea"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Mar2009_XAudio_x86.cab",
+        "size":  "273018",
+        "sha1":  "d7ac0117855211b21f2c108d499a17a3ac53a44a"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2007_d3dx10_36_x64.cab",
+        "size":  "864600",
+        "sha1":  "4aec2de15d0ac8d60c4a4bfde6ed49706bdd8056"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2007_d3dx10_36_x86.cab",
+        "size":  "803884",
+        "sha1":  "847f1a7846f7cc27b7fbff60a211bd0bd79abc4b"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2007_d3dx9_36_x64.cab",
+        "size":  "1802058",
+        "sha1":  "26768072a42f33b623040271aa4175392a10ee87"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2007_d3dx9_36_x86.cab",
+        "size":  "1709360",
+        "sha1":  "90ce4cecf5cf2c6051b61aa9be9151e1305d56db"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/NOV2007_X3DAudio_x64.cab",
+        "size":  "46144",
+        "sha1":  "9a495e3b9107aef5b8df47aeed8588e10d9f8cae"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/NOV2007_X3DAudio_x86.cab",
+        "size":  "18496",
+        "sha1":  "4cb2265bc440f436979509903942cac4d200710f"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/NOV2007_XACT_x64.cab",
+        "size":  "196762",
+        "sha1":  "280fbfb0159cdd3c086fdeee1450edc55082dde0"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/NOV2007_XACT_x86.cab",
+        "size":  "148264",
+        "sha1":  "d2f1fcf279aae43f18da1de1b12b77bf9d3e6bfd"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_d3dx10_40_x64.cab",
+        "size":  "994154",
+        "sha1":  "fbd56b5013f4ea2a87b0c38822aed43eba94f789"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_d3dx10_40_x86.cab",
+        "size":  "965421",
+        "sha1":  "708eff8060f02a6d5fc48f4046ca8614402c7581"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_d3dx9_40_x64.cab",
+        "size":  "1906878",
+        "sha1":  "faa0d70dc02237a3b1329361809fedfd00a22c94"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_d3dx9_40_x86.cab",
+        "size":  "1550796",
+        "sha1":  "e000e83ca40533035a0ad13249fc75d591f95e28"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_X3DAudio_x64.cab",
+        "size":  "54522",
+        "sha1":  "41d468af6200fd57f5f0826421272521983257f7"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_X3DAudio_x86.cab",
+        "size":  "21851",
+        "sha1":  "b384c711255d8d4be5258031ba5f77afe81a096a"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_XACT_x64.cab",
+        "size":  "121794",
+        "sha1":  "c968f7743d4795c722043866fbf98fe49f7bc76c"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_XACT_x86.cab",
+        "size":  "92684",
+        "sha1":  "9b328a61d5c702a614d450aa2979bb9aebdf57ab"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_XAudio_x64.cab",
+        "size":  "273960",
+        "sha1":  "bb23a5d0c81142b934bbeac30b14db6c13210af0"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Nov2008_XAudio_x86.cab",
+        "size":  "272611",
+        "sha1":  "8d8aa53a3924a62cab7586d4597fa944e0593ed9"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Oct2005_xinput_x64.cab",
+        "size":  "86037",
+        "sha1":  "2201149bc0a1e69b0f76d25f3ab4decd6eca73b6"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/Oct2005_xinput_x86.cab",
+        "size":  "45359",
+        "sha1":  "d4a177df95b23a958e6a019508af5667d27f1af7"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/OCT2006_d3dx9_31_x64.cab",
+        "size":  "1412902",
+        "sha1":  "5646ebec8b64895d6edc92d79864a3987a6eb807"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/OCT2006_d3dx9_31_x86.cab",
+        "size":  "1127217",
+        "sha1":  "eaf535e4a1f488077b2f96c6d5d23515cb19776b"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/OCT2006_XACT_x64.cab",
+        "size":  "182361",
+        "sha1":  "d70e7c504b32496244230c1487c990c3bf6f6505"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/DirectX/OCT2006_XACT_x86.cab",
+        "size":  "138017",
+        "sha1":  "cd32752cf1522bc527e77b987d99c5991ff28e2a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/base.ipak",
+        "size":  "2614362112",
+        "sha1":  "e6d5f1eb94b293282d253f525d485ab67ac7f65e"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/code_post_gfx.ff",
+        "size":  "414912",
+        "sha1":  "3016db01f0d6c12ce50af94604719ff6ec7531cb"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/code_post_gfx_mp.ff",
+        "size":  "319040",
+        "sha1":  "15d993e1ecd3b550707d4b115d9d34a944326e3c"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/code_post_gfx_zm.ff",
+        "size":  "300608",
+        "sha1":  "cde7293d2278d7ef69ed878ce0c401d019e1d0a0"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/code_pre_gfx.ff",
+        "size":  "5632",
+        "sha1":  "6c09921c8a569c3d6bcf909c8a4be011f8f3c8d2"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/code_pre_gfx_mp.ff",
+        "size":  "6912",
+        "sha1":  "7ab952c819da937af4d2a356eec36e711bf792c4"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/code_pre_gfx_zm.ff",
+        "size":  "6720",
+        "sha1":  "10f16174ec9b688ffe4622a26cc374192f81d15e"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/common_mp.ff",
+        "size":  "40307072",
+        "sha1":  "c6230659cf448483da5ea881fc740461338b4e21"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/common_patch_mp.ff",
+        "size":  "907392",
+        "sha1":  "4207248ea7ea63bd2d60d7a160e4c9ed7d2f2d4e"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/common_zm.ff",
+        "size":  "10488640",
+        "sha1":  "9cdd1d805d52e0e4ea5cc882346e21e48cd33713"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc0.ipak",
+        "size":  "106954752",
+        "sha1":  "13ceff2dc15805f102a65897bc6927cb8c907781"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc0_load_mp.ff",
+        "size":  "2880",
+        "sha1":  "ca7a6b7054832d4736a60d642c45f69b808dc570"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc0_load_mp.ipak",
+        "size":  "688128",
+        "sha1":  "57eb7a3319ee363f583c696744d1b8bef7d9d5cf"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc1.ipak",
+        "size":  "556531712",
+        "sha1":  "ee743fb4147cf74afbf28e641b7f915b45e5ac2a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc1_load_mp.ff",
+        "size":  "3008",
+        "sha1":  "59411720eb05e9399cdd7031efa3e530a5858c94"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc1_load_zm.ff",
+        "size":  "3328",
+        "sha1":  "f58d2ebca3d14d72a6a4b4be8bb8c4c3eeab9466"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc2.ipak",
+        "size":  "437256192",
+        "sha1":  "bd5bd2718a13adc232af773075ee36a4f6c97e18"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc2_load_mp.ff",
+        "size":  "2944",
+        "sha1":  "d619e71af74427eeda5122468a41dc50b85974ea"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc2_load_zm.ff",
+        "size":  "3264",
+        "sha1":  "d2d81016df262e8f503c54213f7f177105daa7ea"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc3.ipak",
+        "size":  "501219328",
+        "sha1":  "f6e10d2125921cee1eea038423a154ff5140cbeb"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc3_load_mp.ff",
+        "size":  "2944",
+        "sha1":  "e9d367fb205813ec89279aebc774c380401184ae"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc3_load_zm.ff",
+        "size":  "3456",
+        "sha1":  "704ef7a8a744607c99ca993cdc76e7b977aa7db1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc4.ipak",
+        "size":  "464257024",
+        "sha1":  "f72505f8b6475b0b2d8c86ada1558b40c811ba3e"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc4_load_mp.ff",
+        "size":  "2944",
+        "sha1":  "091f2b3c90a1b5b7d68aedf2c36a75d73dbac140"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlc4_load_zm.ff",
+        "size":  "3328",
+        "sha1":  "0dc9da4dce6aab0df3f9293f0625b3d7a62e07a8"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlczm0.ipak",
+        "size":  "98828288",
+        "sha1":  "34997f0a9462e046475c6b54ecfd9899380ba135"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlczm0_load_zm.ff",
+        "size":  "3200",
+        "sha1":  "5a2488d43c28b9cd2bcb371648f7cfc282307b99"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlczm0_load_zm.ipak",
+        "size":  "5079040",
+        "sha1":  "a9da8969813c740615d4b52137b656b5510412e0"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlczm1.ipak",
+        "size":  "109051904",
+        "sha1":  "5815c37e0ef555cb7ba3bf57f1dba18cd724a8ce"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlczm2.ipak",
+        "size":  "245104640",
+        "sha1":  "1d6eb89671a82ad765af72b68dbf4205fc0be5ff"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlczm3.ipak",
+        "size":  "231473152",
+        "sha1":  "ce13479b9b91c6ac96b6a2c2ea8e203c5bfef728"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/dlczm4.ipak",
+        "size":  "407896064",
+        "sha1":  "d794a31c77bac4fc91ce7055c03e2856b185f71a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_cd_mp.ff",
+        "size":  "2536960",
+        "sha1":  "4e08bf3496946deb545bbdff2ef9dd5e0c26b83d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_cd_sand_mp.ff",
+        "size":  "2537280",
+        "sha1":  "dd08ba8ef0d4cf91dc59384c6ea0f9b3e8658a64"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_fbi_mp.ff",
+        "size":  "3262592",
+        "sha1":  "c3c42192efe335f09633ec45f1c7ba97016133e0"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_isa_mp.ff",
+        "size":  "2749760",
+        "sha1":  "2c547265043bc3f55c2c5fc2b25ce21b73fe4e00"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_isa_sand_mp.ff",
+        "size":  "2749824",
+        "sha1":  "dbabb3144bdf01c3a06e9cf06b9005895409662f"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_multiteam_mp.ff",
+        "size":  "4420352",
+        "sha1":  "0b0fe9ee65e6d560d4b71f911a392836396840bf"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_multiteam_sand_mp.ff",
+        "size":  "4426816",
+        "sha1":  "c93add58e0ddb004a0f94cad8e0349a26c937733"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_multiteam_snow_mp.ff",
+        "size":  "4567808",
+        "sha1":  "eb606cff77bbacd08c8aaadd10602dea9d7c85e1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_multiteam_wet_mp.ff",
+        "size":  "4421376",
+        "sha1":  "2a22fb6f88f092c239a6d4f69a8a89ddbe98d725"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_pla_mp.ff",
+        "size":  "3281920",
+        "sha1":  "da4f125f77e7895327aa3e0c8f0f41b944faa103"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_pla_wet_mp.ff",
+        "size":  "3282112",
+        "sha1":  "48fbe415f0a66ce6a12341056a522d0085ad46cd"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_pmc_mp.ff",
+        "size":  "3173184",
+        "sha1":  "12bf92cb258bf73c82a8f71eb9009b1ffa9becf6"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_pmc_snow_mp.ff",
+        "size":  "3376192",
+        "sha1":  "8efcccc11e8a2eaf8bbeb7140c2ed137b4e6a69d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_seals_mp.ff",
+        "size":  "3095232",
+        "sha1":  "93fb8cd727ea12d102ee0aeaf90aa2c51b2bdbad"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_seals_snow_mp.ff",
+        "size":  "3266688",
+        "sha1":  "528af76177b38ace5e2937aa686938ff8d911f45"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/faction_seals_wet_mp.ff",
+        "size":  "3094592",
+        "sha1":  "cadaead6d4836a0f356df65325d47aa8c832f10f"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_bridge.ff",
+        "size":  "38450112",
+        "sha1":  "bc0260ecd9afa7c5b8f850777dddb85424d367d9"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_carrier.ff",
+        "size":  "30267776",
+        "sha1":  "38f11aab83909364722b0eef1a5cc213f1248884"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_castaway.ff",
+        "size":  "28199488",
+        "sha1":  "04e595791bad33fcbd1efd8610113b1a45147b32"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_concert.ff",
+        "size":  "34625536",
+        "sha1":  "c6eebe491dd1374f2b19d32a37e0c0966cfd51ab"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_dig.ff",
+        "size":  "30684288",
+        "sha1":  "8081ea8c368c90b9ca2b50be7882b490e9ca7b95"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_dockside.ff",
+        "size":  "33729728",
+        "sha1":  "1021898af8b955f1b46a9d2b6c75cd7024ddf4ef"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_downhill.ff",
+        "size":  "38993152",
+        "sha1":  "92e282b166c089f427738e86efbb55780b7b4eaf"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_drone.ff",
+        "size":  "34643840",
+        "sha1":  "bcd0e64026922eb08b9951768b261523e112e090"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_express.ff",
+        "size":  "34712000",
+        "sha1":  "93dd715b6335d0a7d50357db35da2e91a807f21f"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_frostbite.ff",
+        "size":  "39856064",
+        "sha1":  "9ebb63b87bafc7186e862982a6e918eeddee5c73"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_frostbite.ipak",
+        "size":  "90439680",
+        "sha1":  "708a07fd5e35aeaaf752bd2d780375cf46fd7176"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_hijacked.ff",
+        "size":  "30292736",
+        "sha1":  "2ab425c014bf45046519311e58b033aac54d9e35"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_hydro.ff",
+        "size":  "34081984",
+        "sha1":  "c35e3dbb6d6b3c28daea22aa101a6edc069febc8"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp.ipak",
+        "size":  "348651520",
+        "sha1":  "cf849b3c8c13f32f76c3f016ffe6fc62ce5e3a4d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_la.ff",
+        "size":  "36467840",
+        "sha1":  "818213d00334dcbfcf362fdc17d2b32ba30fe175"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_magma.ff",
+        "size":  "39483712",
+        "sha1":  "e63e2a834cfea0505d8ba19fc15395720e7064ff"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_meltdown.ff",
+        "size":  "35719872",
+        "sha1":  "168a2346547c66723922de102c5a93b106454912"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_mirage.ff",
+        "size":  "41342656",
+        "sha1":  "06eee8effe5221fc91498b5cb401f21b3c603778"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_nightclub.ff",
+        "size":  "35839872",
+        "sha1":  "81e7c9345d592bd22f40510cda02b540ffa308d7"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_nuketown_2020.ff",
+        "size":  "38472064",
+        "sha1":  "584a2e2255c988330de9eb0469d9965c7d21e1b4"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_nuketown_2020.ipak",
+        "size":  "165543936",
+        "sha1":  "7b5a77c3b1e4b6caf0068c513ebe9dcf39c5bff4"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_overflow.ff",
+        "size":  "41972736",
+        "sha1":  "589b15a3834cbce54bdedda0541c3a435abde107"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_paintball.ff",
+        "size":  "35977728",
+        "sha1":  "ad73456f4bc0228ba93f5381aae18761339e822c"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_pod.ff",
+        "size":  "36414016",
+        "sha1":  "609104f58da654bb57eaea17d7118089340abdd1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_raid.ff",
+        "size":  "35718144",
+        "sha1":  "6ff8963f7008bad309bd168eeb9a2628b5e47655"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_skate.ff",
+        "size":  "41165184",
+        "sha1":  "0c8de861910a1f263e2e059d15b99fe722e00077"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_slums.ff",
+        "size":  "41128512",
+        "sha1":  "7a0f7da552f2467aab855c6f63b423fcddd6e4bb"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_socotra.ff",
+        "size":  "38051200",
+        "sha1":  "fbe4dd74f8a74eb2168335e9d0ae61493e1ccfa6"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_studio.ff",
+        "size":  "34216640",
+        "sha1":  "9db81dcd1a19888883b92c220909763f70e2b595"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_takeoff.ff",
+        "size":  "33924352",
+        "sha1":  "b7225fa0b1e158694b11ff6470418e3e17c82c36"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_turbine.ff",
+        "size":  "36373504",
+        "sha1":  "9031f624e04c24ebd0c887fc7f9976397284cdbd"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_uplink.ff",
+        "size":  "32782784",
+        "sha1":  "9dfeb1b63aff891089f1622dde2d4ac858570f40"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_vertigo.ff",
+        "size":  "37817600",
+        "sha1":  "42f01bdf83a1c10c11d18fb2350045ec71a42184"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/mp_village.ff",
+        "size":  "35811520",
+        "sha1":  "186d9aea6023ad8d7fd52683ddc0596f37ffbb1a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/patch_mp.ff",
+        "size":  "3638592",
+        "sha1":  "da73d56b3a594c56d3dde4e92ac027a957da0abb"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/patch_mp.ipak",
+        "size":  "56623104",
+        "sha1":  "133d37c6f1cde9afef6304802e85133b9d70564b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/patch_ui_mp.ff",
+        "size":  "1072832",
+        "sha1":  "ea044823c72b82c94cd9a72095359b6058bfdc82"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/patch_ui_zm.ff",
+        "size":  "265600",
+        "sha1":  "0ecf496c3d531b106a495dafd5da264b8f1bf813"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/patch_zm.ff",
+        "size":  "3001792",
+        "sha1":  "36c7d435bb2ef7222383435056a0e5478f10be09"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/patch_zm.ipak",
+        "size":  "20971520",
+        "sha1":  "f9a92b570fa872ff3c8e60245e041bdc3994c0af"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/so.ipak",
+        "size":  "146538496",
+        "sha1":  "bf057ad90d25b03adf2739178fd86a4802dbede3"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/so_zclassic_zm_buried.ff",
+        "size":  "19512448",
+        "sha1":  "bfa6cf7d35d283ea4ffacbd13b9c81159b2789c0"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/so_zclassic_zm_prison.ff",
+        "size":  "2088384",
+        "sha1":  "47f60273faaef538f73f10d19ee53d95d4aa2d61"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/so_zclassic_zm_transit.ff",
+        "size":  "17538176",
+        "sha1":  "f2ec64a202fe75c3e83a3a2605d88d1c9ed990a6"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/so_zencounter_zm_buried.ff",
+        "size":  "15582976",
+        "sha1":  "740ac3b4f20b66e87a8a449a78a776394691c6bc"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/so_zencounter_zm_prison.ff",
+        "size":  "1099392",
+        "sha1":  "d9bca391db7b08e84bef475883b01ab8c08ae870"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/so_zencounter_zm_transit.ff",
+        "size":  "16097280",
+        "sha1":  "18552b0cd4c7ab53df522cc7bf0e943fa0b6d496"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/so_zsurvival_zm_transit.ff",
+        "size":  "15392832",
+        "sha1":  "322b9f0f9a11a1341b365d7f3795812d1cc021a4"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/ui_mp.ff",
+        "size":  "404544",
+        "sha1":  "805dbe6cc323401ee011202a4a09202684f8e548"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/ui_zm.ff",
+        "size":  "384576",
+        "sha1":  "dbb87018554241062ccb09becd4eb050e3598260"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/weapons.clump",
+        "size":  "53930221",
+        "sha1":  "12cb87a3e0596d7fb9965ae64ccedd1b05d35dfb"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/weapons.ff",
+        "size":  "512",
+        "sha1":  "bcf5269148c38a2d820455b8974883f2d613ba1b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_buried.ff",
+        "size":  "53051072",
+        "sha1":  "61d3340dfbc71191183b8b4a4cf1488d3030449a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_buried_patch.ff",
+        "size":  "580928",
+        "sha1":  "1ddedbfdfdfa1b2609c157e4b8a63d47baf026de"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_highrise.ff",
+        "size":  "71021440",
+        "sha1":  "fa137d65af90ad28e144635d420172aa1b21b59b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_highrise_patch.ff",
+        "size":  "399104",
+        "sha1":  "9a699a28cadcd14b62668c956af8638014284d86"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm.ipak",
+        "size":  "132120576",
+        "sha1":  "ff7f76250ef09fb56f5727398b75bd281c8a30e3"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_nuked.ff",
+        "size":  "81817024",
+        "sha1":  "8a9a03caafe98004e518e49ec1654f574b435a96"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_nuked.ipak",
+        "size":  "142868480",
+        "sha1":  "5acc8cb7f134b34febc67704e64018cfea47dfb1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_nuked_patch.ff",
+        "size":  "318080",
+        "sha1":  "82f43f4f4aec518960fb6f4cacd367e7c4340e9b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_nuked_patch.ipak",
+        "size":  "1343488",
+        "sha1":  "2fb8015ef458b4685adb16278588130abcecb53a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_prison.ff",
+        "size":  "65981312",
+        "sha1":  "5aaa56c82968e2a5080f1824ae58822f4dad0967"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_prison_patch.ff",
+        "size":  "1476096",
+        "sha1":  "8225d26b05ccd198d518926d4c68233895c55e98"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_tomb.ff",
+        "size":  "78753344",
+        "sha1":  "4aeac352ba260b00acbe87cdb802d33b762cddab"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_tomb_patch.ff",
+        "size":  "1288384",
+        "sha1":  "599aed15196f686223a2e35368f568ebc03a233b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_dr.ff",
+        "size":  "29750976",
+        "sha1":  "bb51c49496114f77e84c97b2a2aaaed59652312c"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_dr_patch.ff",
+        "size":  "1170048",
+        "sha1":  "973b1700f3a7b03a6dbcf4b7af72bc4b03b85493"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit.ff",
+        "size":  "58935232",
+        "sha1":  "90e7a1f7b05c3bc5a0fe85dead79e037a864cad5"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_bridge.ff",
+        "size":  "512",
+        "sha1":  "84303f40312a5c2ffe843bde1657bf95c3711e72"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_busstation.ff",
+        "size":  "1814784",
+        "sha1":  "055034c8febd9d5fde794c64e07122e37c7eca42"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_cornfield.ff",
+        "size":  "622720",
+        "sha1":  "90fcfc3fbf38cfd67522c1552896ea6a88719bb4"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_diner.ff",
+        "size":  "2122816",
+        "sha1":  "166ae60ede4e7a8f564e4fa199c674cfa114e53b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_farm.ff",
+        "size":  "1209088",
+        "sha1":  "a1075c5f4e4df654b99f0bb1e39b39061779d929"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_forest2.ff",
+        "size":  "557056",
+        "sha1":  "f5aea42cd12781fc2fcc88c6ccbd359fd84fc577"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_forest.ff",
+        "size":  "53568",
+        "sha1":  "fe0aee1df7f7d63428ed85ca053bb36db61e8b7f"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_labs.ff",
+        "size":  "468160",
+        "sha1":  "0e7b31d54a250b0892a7727f31011c7abb784b5b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_powerstation.ff",
+        "size":  "2336512",
+        "sha1":  "45ae0009db227857b8904381d06fff892f443ac8"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_prealloc_0.ff",
+        "size":  "10368",
+        "sha1":  "34c613df7f120afea624073be2f79b42553e6052"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_prealloc_1.ff",
+        "size":  "10368",
+        "sha1":  "9430a7a7358eb05806935f819f651dbc5a8745e9"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_prealloc_2.ff",
+        "size":  "512",
+        "sha1":  "53222a62f8974ca02a60e60e10d44186372a6bce"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_prealloc_3.ff",
+        "size":  "512",
+        "sha1":  "23b35cc6956b26c4a0ad6bbef08725c254fe0679"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_town.ff",
+        "size":  "1589696",
+        "sha1":  "3d3776c87e25bdd99e48a463604a626597cbc14b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_gump_tunnel.ff",
+        "size":  "202816",
+        "sha1":  "212c1a4fd474ae955a2cb02b5647c1d0f32814d1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/all/zm_transit_patch.ff",
+        "size":  "685312",
+        "sha1":  "da0a6411786e7eccb4550edf390e35a74052ba84"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_afghanistan.ff",
+        "size":  "10432",
+        "sha1":  "87cea8de2cba000c9b98977644c2f18127dd628a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_angola_2.ff",
+        "size":  "71104",
+        "sha1":  "e28b04e0939417e0e9fbc7a55ac49ca77a67f82c"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_angola.ff",
+        "size":  "56704",
+        "sha1":  "180650afcb05ed5ddd1e37c4e72dfbc595de7223"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_base.ipak",
+        "size":  "786432",
+        "sha1":  "9eee37ba371b9d3588819d7c60e00a631134aa92"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_blackout.ff",
+        "size":  "55424",
+        "sha1":  "4b9a0e6656266a9127107ccd30086ba7c4f0c2ce"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_code_post_gfx.ff",
+        "size":  "27584",
+        "sha1":  "2fc1bb6e0727ca950b056798dc81af4a47de9143"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_code_post_gfx_mp.ff",
+        "size":  "209728",
+        "sha1":  "dcf8e9bcbbe257a20e9e93133881189bcfc70844"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_code_post_gfx_zm.ff",
+        "size":  "170496",
+        "sha1":  "2f22d7f534c2fe037830175073ae4a30e950cb57"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_common.ff",
+        "size":  "7744",
+        "sha1":  "2a1538c4e6c8c53c350133f6b1381672124bc1c1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_common_mp.ff",
+        "size":  "5952",
+        "sha1":  "cec78ab54a37db6520d43162ad972b2f96dcca02"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_common_zm.ff",
+        "size":  "576",
+        "sha1":  "e2b8195c33c391bd8d5fd5145db65526cadba41d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_dlc1_load_zm.ff",
+        "size":  "832",
+        "sha1":  "8a6ca8fb5bb98537ac9a4d8c3a5fc44bf3f7adb6"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_dlc2_load_zm.ff",
+        "size":  "768",
+        "sha1":  "a656c6ca428395e6486dfb1f35b602d4a9b65889"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_dlc3_load_zm.ff",
+        "size":  "640",
+        "sha1":  "8a61a5f3db0eea93497e49f422d40e39549f0935"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_dlc4_load_zm.ff",
+        "size":  "768",
+        "sha1":  "9b12892813db8f5555c26ac1fe34601c717a1d6b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_cd_mp.ff",
+        "size":  "24768",
+        "sha1":  "6daa5dd20ed8e5a671a0b5550ae18982b257ba46"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_cd_sand_mp.ff",
+        "size":  "24768",
+        "sha1":  "b9b96c91f75ea74ce810093c30aed45c994944df"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_fbi_mp.ff",
+        "size":  "24640",
+        "sha1":  "56de35e6049053113340a0121fef9b37f315b5a9"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_isa_mp.ff",
+        "size":  "24704",
+        "sha1":  "b97692348300a7346d13eaf6518fe258582ab1a9"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_isa_sand_mp.ff",
+        "size":  "24704",
+        "sha1":  "82ae7649e241965f5df641e39c0d2ee1b18f7cf1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_multiteam_mp.ff",
+        "size":  "148544",
+        "sha1":  "2208343ad2d64fc6dfdf6eaad02938fd1b4c4594"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_multiteam_sand_mp.ff",
+        "size":  "148544",
+        "sha1":  "24228c36a5cfe4fd70052f5538e0c48713e79c7d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_multiteam_snow_mp.ff",
+        "size":  "148544",
+        "sha1":  "7e88f7194c90d6fb328ab66ef320dabd6b0920e6"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_multiteam_wet_mp.ff",
+        "size":  "148544",
+        "sha1":  "5487cf0d77ccd907fc9f94957804954762c0fe93"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_pla_mp.ff",
+        "size":  "22208",
+        "sha1":  "4c3f63a1e92319240fc190db910afbbfa9da0b03"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_pla_wet_mp.ff",
+        "size":  "22208",
+        "sha1":  "ba9d715cc02bf62ff87c1e7bf959fc829767e20c"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_pmc_mp.ff",
+        "size":  "24640",
+        "sha1":  "e073141752ff65da364ab3be2689d9ccf1927198"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_pmc_snow_mp.ff",
+        "size":  "24640",
+        "sha1":  "a68d2a7e519ec0f9898081f94ceebaf76ad253a2"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_seals_mp.ff",
+        "size":  "25664",
+        "sha1":  "0d5d741ee67fea265ce99770bc0213535ad0303f"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_seals_snow_mp.ff",
+        "size":  "25664",
+        "sha1":  "2bc8322165e9eec1c6de0dcace6cb47e4d7191d8"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_faction_seals_wet_mp.ff",
+        "size":  "25664",
+        "sha1":  "2da84e1f6e005685ca0a8523b784780485ffe34a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_frontend.ff",
+        "size":  "11392",
+        "sha1":  "f2f656cc211c74bc7e7a0bd37d4c9f74633fcb22"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_haiti.ff",
+        "size":  "44352",
+        "sha1":  "7c9ae949913962467407df7914165dd1cd20a6f4"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_karma_2.ff",
+        "size":  "50432",
+        "sha1":  "3ff2ae826bac0d1672f28ec544c9e8696d5b0156"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_karma.ff",
+        "size":  "66048",
+        "sha1":  "6200f0fa61c77750cafab4015a241bed52145805"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_la_1b.ff",
+        "size":  "47936",
+        "sha1":  "e533d83a036636642165e08ccc129381301e70c1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_la_1.ff",
+        "size":  "40128",
+        "sha1":  "3a399987dd83bcaf21c60b3cab60a91514fd8418"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_la_2.ff",
+        "size":  "19840",
+        "sha1":  "996617a0e06ea8801d40947bb945dddf22c9fe1f"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_monsoon.ff",
+        "size":  "48192",
+        "sha1":  "a793bf999616f3ad6297a9e9797c22fef707e1c0"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_bridge.ff",
+        "size":  "832",
+        "sha1":  "b7f213a5461822ca610b5115343c0c4549b922a7"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_carrier.ff",
+        "size":  "832",
+        "sha1":  "39abd9a3ef431bf7b366edcb9063243f0d8335f2"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_castaway.ff",
+        "size":  "832",
+        "sha1":  "097b1ac15e758d2cb6c0a0d982be958b1e5995f1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_concert.ff",
+        "size":  "832",
+        "sha1":  "7bd06d111f46eec96c959c38253ef83aa898eeec"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_dig.ff",
+        "size":  "832",
+        "sha1":  "6abb31679db1fed78de4704d442c70805b810332"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_dockside.ff",
+        "size":  "832",
+        "sha1":  "c072a2ccc9d918990fc8d18e20136b23b28384da"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_downhill.ff",
+        "size":  "832",
+        "sha1":  "797b5888905032a9ddcb204dcc744a212596de31"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_drone.ff",
+        "size":  "832",
+        "sha1":  "350ac1673baad1742928be4c7ba8151148a5141a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_express.ff",
+        "size":  "832",
+        "sha1":  "ad9845a0da16a41a91e5dbf01de30d14e698a94c"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_frostbite.ff",
+        "size":  "832",
+        "sha1":  "1e49a7bbc7832ae5ad877ac6f6688a47f32b8ee6"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_hijacked.ff",
+        "size":  "832",
+        "sha1":  "11ed3c60a865f704263b600d4cacc843846792c5"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_hydro.ff",
+        "size":  "832",
+        "sha1":  "fa4c2a989163c0f878b6ee320952a1ba2e4a440b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_la.ff",
+        "size":  "832",
+        "sha1":  "a66432f4452881bf32afa70d8b92b29148579ab7"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_magma.ff",
+        "size":  "832",
+        "sha1":  "72eadbb2749fc66b47e5dae0831d908fe3656328"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_meltdown.ff",
+        "size":  "832",
+        "sha1":  "b94899711825360d237f18b53c893c228add3d6c"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_mirage.ff",
+        "size":  "832",
+        "sha1":  "79f3c20eed7708abd3b993d939c83fa42f4b7293"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_nightclub.ff",
+        "size":  "960",
+        "sha1":  "b7a73ffb4394d55be91697823d8c8121f7bc5bb9"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_nuketown_2020.ff",
+        "size":  "832",
+        "sha1":  "2739e3cba4e8d4826d2ec106d003e05072aaebca"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_overflow.ff",
+        "size":  "832",
+        "sha1":  "b972ee8b13fbb757ae60bb25057f0a8b81e10e7d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_paintball.ff",
+        "size":  "832",
+        "sha1":  "991b37ff685ccc0549025adf8c152d4694c005f3"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_pod.ff",
+        "size":  "832",
+        "sha1":  "334de75a4b7d1062732328e82ab9ef7c9e2018ec"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_raid.ff",
+        "size":  "832",
+        "sha1":  "19a429d655425897b6990f0cd04df6a4485bf743"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_skate.ff",
+        "size":  "832",
+        "sha1":  "6dd40a852a05875300df868ab3a97fed675e5b3b"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_slums.ff",
+        "size":  "960",
+        "sha1":  "5611d6c58d8b959a570c617ad8178e6f81503be7"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_socotra.ff",
+        "size":  "832",
+        "sha1":  "e0d815e8bebd0187ec7a803267fa5d07d4df2f18"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_studio.ff",
+        "size":  "832",
+        "sha1":  "2aa255b5811e8da02815c8ac3aed1bc3f2944860"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_takeoff.ff",
+        "size":  "832",
+        "sha1":  "f4ee3aa559a37ade6f63279a332010cda45e4a69"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_turbine.ff",
+        "size":  "832",
+        "sha1":  "3736c7cfbb001baf512d1bff594451139dbf5807"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_uplink.ff",
+        "size":  "832",
+        "sha1":  "87cd0a63d8c8325f270d929463f1019c0ac59f13"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_vertigo.ff",
+        "size":  "832",
+        "sha1":  "bc3614de1e0c172d6b072133d618ec70d03c200d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_mp_village.ff",
+        "size":  "832",
+        "sha1":  "42ffb92578030d7f8f16a35093ffd1ee905685f0"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_nicaragua.ff",
+        "size":  "49280",
+        "sha1":  "fdc7d34a7ff3e762de3758cbbe8d3db63c9d71f3"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_pakistan_2.ff",
+        "size":  "45376",
+        "sha1":  "49a07ebb8bb03f43bfa13c7ea72f2c47b40ba7f8"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_pakistan_3.ff",
+        "size":  "11136",
+        "sha1":  "dc8015288930b0d50effe583e3ec180323bc9253"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_pakistan.ff",
+        "size":  "43392",
+        "sha1":  "e85d6d4af8760ea00abf7d3ea7a0bc6758a56468"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_panama_2.ff",
+        "size":  "44416",
+        "sha1":  "ba11a60a171fd881c150f17dffa8d0f857de10ad"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_panama_3.ff",
+        "size":  "42176",
+        "sha1":  "a911fcd57a8a2cdc866c464e8a83f5dbfeec6ec2"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_panama.ff",
+        "size":  "44928",
+        "sha1":  "5f934061f0beaaf1c27ef68fc6cce2c0098dc7f1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_patch.ff",
+        "size":  "186304",
+        "sha1":  "ed63a006cc5b88a0f57219ceeb702c365852788e"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_patch_mp.ff",
+        "size":  "51584",
+        "sha1":  "51f94e3a37d1bf51eff2ae2fe97ee5ad4ca6b1ef"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_patch_ui_mp.ff",
+        "size":  "512",
+        "sha1":  "cbe020f3c005c1e3590922fad8cf9d52dc7bd8e6"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_patch_ui_zm.ff",
+        "size":  "512",
+        "sha1":  "c6950701914763a91af055cbd5847948e15cbc18"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_patch_zm.ff",
+        "size":  "48384",
+        "sha1":  "a82e68c793055ad93f033ac03246429bbdb78561"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_cmp_afghanistan.ff",
+        "size":  "71936",
+        "sha1":  "c0c14962c6038afa76add372fa8104a4e937b236"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_cmp_frontend.ff",
+        "size":  "1216",
+        "sha1":  "ca6a08d390838134e2be8b86e71610eb2cd4340d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_rts_afghanistan.ff",
+        "size":  "54592",
+        "sha1":  "5c5165b8d14aebcebb2db2ce2de5a77a2c7f36d1"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_rts_mp_dockside.ff",
+        "size":  "8768",
+        "sha1":  "a9be0462f8e2bb801dde1d700c559be501600618"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_rts_mp_drone.ff",
+        "size":  "8832",
+        "sha1":  "016606a091956aa1320fc70b6bed1ffcd553d6a0"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_rts_mp_overflow.ff",
+        "size":  "8704",
+        "sha1":  "1c714f8b5b34ff3a285ace988d97015035b74203"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_rts_mp_socotra.ff",
+        "size":  "9152",
+        "sha1":  "ba0123454f460fd6062693c9b69b4e37cb1702b9"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_tut_mp_drone.ff",
+        "size":  "12352",
+        "sha1":  "0754d4a67654023fabb5e4a49217ab932a2c5f1d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_zclassic_zm_transit.ff",
+        "size":  "71744",
+        "sha1":  "0885450945033a6faf8b8a94aa4d288ff09a954a"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_zencounter_zm_transit.ff",
+        "size":  "67840",
+        "sha1":  "ab11a85c05b61b24df3dea817db4d73ce659ba55"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_so_zsurvival_zm_transit.ff",
+        "size":  "67840",
+        "sha1":  "2bfe676015db160a053f5443e35a4333388a1fab"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_su_rts_mp_dockside.ff",
+        "size":  "49920",
+        "sha1":  "c2c5290065bd78b8c384b49a7dac6dbb4cf8616e"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_su_rts_mp_drone.ff",
+        "size":  "68672",
+        "sha1":  "0c0dd8872cee7757c19462a4c753dc6db67ca3e2"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_su_rts_mp_overflow.ff",
+        "size":  "48000",
+        "sha1":  "1880a2035bf7c02d3ad63c26e0bcf69823f7fe85"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_su_rts_mp_socotra.ff",
+        "size":  "49472",
+        "sha1":  "48708801df82e3a241bf8476c052ad8e2454c475"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_su_tut_mp_drone.ff",
+        "size":  "17280",
+        "sha1":  "860be445993e282ae649956dcf1e0367b8cebbd9"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_ui_mp.ff",
+        "size":  "6080",
+        "sha1":  "8d2706a2c9cea57303bced741ad534c6ba859e90"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_ui_zm.ff",
+        "size":  "6080",
+        "sha1":  "eb7295e4164432fb72e1e9c9a8e8b1df962fa0bf"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_yemen.ff",
+        "size":  "45120",
+        "sha1":  "13dd186453b6bf2b7414b9355df8b501a6d7e9ef"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_zm_buried.ff",
+        "size":  "72768",
+        "sha1":  "dff999901a6585048d49ff6a9dba91cae635a23d"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_zm_highrise.ff",
+        "size":  "55936",
+        "sha1":  "4858a81b31b4201a18c90be01f37b05deb081d22"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_zm_nuked.ff",
+        "size":  "5440",
+        "sha1":  "2551dd66d125d28c1b6f8b69c967a902e9b90db0"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_zm_prison.ff",
+        "size":  "72896",
+        "sha1":  "20315ee923126715e6afde5791cf227edb0d3a43"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_zm_tomb.ff",
+        "size":  "74176",
+        "sha1":  "4b8adbbfc023e3f5a75d5eddf2d65d55bbac08d2"
+    },
+    {
+        "name":  "pluto_t6_full_game/zone/english/en_zm_transit.ff",
+        "size":  "704",
+        "sha1":  "b914f067907357e1e841391fe6ace5ad8b1b68ab"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/.NETFramework.exe",
+        "size":  "129746",
+        "sha1":  "fc15a30f20ba9fc051935eb7299f41422fb7472e"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/vcredist_x86.exe",
+        "size":  "4995416",
+        "sha1":  "b84b83a8a6741a17bfb5f3578b983c1de512589d"
+    },
+    {
+        "name":  "pluto_t6_full_game/redist/VC_redist.x86.exe",
+        "size":  "14427696",
+        "sha1":  "b38b7fc28c5e2ef157f93297036202911d2fc2bf"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/cmn_root.all.sabl",
+        "size":  "266502144",
+        "sha1":  "b15ef458a943262e895d3a35214d6c3643aae047"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/cmn_root.all.sabs",
+        "size":  "190654464",
+        "sha1":  "9354b6b232a7a42549ca0af436939f97665cbb27"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/cmn_root.english.sabs",
+        "size":  "5742592",
+        "sha1":  "b3ac951c985a08027e0172b71bcb047391b1a3ec"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_bridge.all.sabl",
+        "size":  "13002752",
+        "sha1":  "0bfdd1f44afbb6bb945500b1d7deeca0027e0afa"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_bridge.all.sabs",
+        "size":  "14729216",
+        "sha1":  "098b73d651699fb5665f0ad4407710970c091590"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_carrier.all.sabl",
+        "size":  "5429248",
+        "sha1":  "c904fb4ba181c5decabcaa6ed5b427462eca7a38"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_carrier.all.sabs",
+        "size":  "839680",
+        "sha1":  "ba09508c7c13fb4770e5a378d15cb805bc455a82"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_castaway.all.sabl",
+        "size":  "5613568",
+        "sha1":  "37063ecfb5b18c61f4d4e7ac337b1c50a22a3562"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_castaway.all.sabs",
+        "size":  "2101248",
+        "sha1":  "9e1ac051a7464b15ce42d0f60c1c08aaf2b0abd3"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_code_post_gfx.all.sabl",
+        "size":  "1714176",
+        "sha1":  "f5b35ead15e1979363f68e6206ece36aeb9c9797"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_code_post_gfx.all.sabs",
+        "size":  "50597888",
+        "sha1":  "9dee95d24414d35c612564a85e63577c4ce0004f"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_code_post_gfx.english.sabs",
+        "size":  "497498112",
+        "sha1":  "8bfac5cf1278c8b446167549bd4a6c91663ecc3b"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_common.all.sabl",
+        "size":  "25815040",
+        "sha1":  "553186bd01fce5ac86ffd73579352065d29fd95e"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_common.all.sabs",
+        "size":  "90656768",
+        "sha1":  "440c134aa31073ed3678aea19a2155ef114c9462"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_common.english.sabs",
+        "size":  "323584",
+        "sha1":  "ee8b945f840deed310c716be857689aba5df3203"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_concert.all.sabl",
+        "size":  "10524672",
+        "sha1":  "7b73ce9803b6c711223e1d23c0934eb6ff1e9010"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_concert.all.sabs",
+        "size":  "11446272",
+        "sha1":  "bbb768e7c2293ecee36a9ad55c0d118010766991"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_cruise.all.sabl",
+        "size":  "227328",
+        "sha1":  "29c5d136cdf8995c327ef31e383b2e95f0dd14d7"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_dig.all.sabl",
+        "size":  "10960896",
+        "sha1":  "9b79d9ca952fcb905d7b795eb86e4fe1f6f7b94f"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_dig.all.sabs",
+        "size":  "3219456",
+        "sha1":  "620cb103d0b3070ab69053bf2e7b10bee53485b4"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_downhill.all.sabl",
+        "size":  "16189440",
+        "sha1":  "fde3ab3bec7b9c06a77c54597cb932162cf1c1f8"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_downhill.all.sabs",
+        "size":  "3768320",
+        "sha1":  "703fe681c2f1170e79724cb777e37f351c3bfed4"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_express.all.sabl",
+        "size":  "6455296",
+        "sha1":  "5ede11bd465eb4c885dc05c6eb4b6b987b76b483"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_express.all.sabs",
+        "size":  "20129792",
+        "sha1":  "9cfc7d38f0f27fe8ecebb6c67de9c2cb0b8ac120"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_frostbite.all.sabl",
+        "size":  "12345344",
+        "sha1":  "1d199f9fe27cd91d612a4e5c2c8b6bb5329ca947"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_frostbite.all.sabs",
+        "size":  "12224512",
+        "sha1":  "fdce2995f1c89e180c2a9da43b43ecc5029bf1a6"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_hijacked.all.sabl",
+        "size":  "7557120",
+        "sha1":  "c92de6c1263ae60b97dadcce4c0fa429d740acb0"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_hijacked.all.sabs",
+        "size":  "13969408",
+        "sha1":  "d8013b319d9e89dca660283aa6e8ee4d5b6dc8da"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_hydro.all.sabl",
+        "size":  "15362048",
+        "sha1":  "28082b928a33b25d3a43b8707e43c55924160fa6"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_hydro.all.sabs",
+        "size":  "9338880",
+        "sha1":  "f96a865d1e68f9f79ab51ee94d56a4d6f89e2d6f"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_la.all.sabl",
+        "size":  "2566144",
+        "sha1":  "378fc0fbe34ac8bcf7a98ae16815db05ca33be95"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_la.all.sabs",
+        "size":  "7761920",
+        "sha1":  "b3c0b2916ca2547dd7df376f60e480631185808b"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_magma.all.sabl",
+        "size":  "12832768",
+        "sha1":  "81981d9a0eb6bc9095819cc1efdad0d5d7941a79"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_magma.all.sabs",
+        "size":  "6215680",
+        "sha1":  "a493353493e3603f6727fe1d7df010a80ba3143f"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_meltdown.all.sabl",
+        "size":  "4673536",
+        "sha1":  "71e4c2d3c1631664889fb4ffc02c1282513b9a5a"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_meltdown.all.sabs",
+        "size":  "2459648",
+        "sha1":  "e7c1ef6efa85f13a71205ea2e9718a0eb0805acf"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_mirage.all.sabl",
+        "size":  "7680000",
+        "sha1":  "a7d8c936db93237be4ce1f2821d9659beb520ad1"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_mirage.all.sabs",
+        "size":  "4458496",
+        "sha1":  "4a7e788f2488255e54d4d790a3ff56d2611a0af3"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_nightclub.all.sabl",
+        "size":  "5085184",
+        "sha1":  "7be64096ff84e97ced9a42312edbd0bf23234b75"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_nightclub.all.sabs",
+        "size":  "37187584",
+        "sha1":  "af27508d1fab71810d401a88621534fe4660a42c"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_nightclub.english.sabs",
+        "size":  "1359872",
+        "sha1":  "ab1e101a6874fb348fd93bb2c80c7d957026cc37"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_nuketown_2020.all.sabl",
+        "size":  "16136192",
+        "sha1":  "31d8cc5be7b06f8c9fa7e5a19907a0d472bbd24b"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_nuketown_2020.all.sabs",
+        "size":  "8800256",
+        "sha1":  "f41a5108a2d2defec4f9573f974dd8adf936f9f9"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_paintball.all.sabl",
+        "size":  "9498624",
+        "sha1":  "5244e9496d87598e3a35aec3e45e0c7b6fce835b"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_paintball.all.sabs",
+        "size":  "8886272",
+        "sha1":  "9fe7cdcd687f8121ce2e05fda93e6e251411c16c"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_patch.all.sabl",
+        "size":  "126976",
+        "sha1":  "79852f78800266d253163e54e4ec6525373824a4"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_patch.all.sabs",
+        "size":  "24303616",
+        "sha1":  "15917f875c59565051ae721e4d7ec03cb59e8a90"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_pod.all.sabl",
+        "size":  "11061248",
+        "sha1":  "8c0e569b71040d935f7beb8e43817dd8351e7bc3"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_pod.all.sabs",
+        "size":  "8640512",
+        "sha1":  "f0080deb5a5a152a3f14803d4ba3287f7d3a16af"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_raid.all.sabl",
+        "size":  "2572288",
+        "sha1":  "ae2fa29019c06495c760737deea614ff8cbe6187"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_raid.all.sabs",
+        "size":  "4188160",
+        "sha1":  "8e4408a3a8390e663f8cf5065863b4db4827f36b"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_skate.all.sabl",
+        "size":  "3928064",
+        "sha1":  "75ad3202c8617c15a081427a71aee5a3e927d43c"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_skate.all.sabs",
+        "size":  "7747584",
+        "sha1":  "e8441a82d5ef2d3be3b7027ecffd6bb7a93f8b43"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_slums.all.sabl",
+        "size":  "3989504",
+        "sha1":  "c646e293b1d1beb31675b8f3d0781f8c51ea4f81"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_slums.all.sabs",
+        "size":  "3827712",
+        "sha1":  "1fe6e38186f649656dec58f073ea24c4ba3ed125"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_slums.english.sabs",
+        "size":  "1243136",
+        "sha1":  "fa1dbe5b91bf589cce3a1bbe3fb0b832b6ae92ef"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_standoff.all.sabl",
+        "size":  "2074624",
+        "sha1":  "388def5990b48d56092afe39eb119b67107856c6"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_standoff.all.sabs",
+        "size":  "235520",
+        "sha1":  "3bd473469b4278f5fd7abbe05496d1ad764f6b40"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_studio.all.sabl",
+        "size":  "8892416",
+        "sha1":  "60a3fbe9081cffc2238c744d4a4ed02c27e45729"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_studio.all.sabs",
+        "size":  "5187584",
+        "sha1":  "ee0473918b589fb6869d7dd757f24c1e469ddf9a"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_takeoff.all.sabl",
+        "size":  "9998336",
+        "sha1":  "9db04acecdcc365a10d64712f5fde0bbf7fdbe25"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_takeoff.all.sabs",
+        "size":  "10790912",
+        "sha1":  "c67d6bcf1f6b99369ea903f65270ba3a4afb2627"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_turbine.all.sabl",
+        "size":  "966656",
+        "sha1":  "63082cb9ab770b7ed7dadee43d67ae14447d463d"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_turbine.all.sabs",
+        "size":  "12222464",
+        "sha1":  "324ff0c8bab1d4517fc9c21347e67ea7b7430851"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_uplink.all.sabl",
+        "size":  "17213440",
+        "sha1":  "81a196086b9a960c271019c3caedee80dc97544b"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_uplink.all.sabs",
+        "size":  "18638848",
+        "sha1":  "699c0bf26f1f6a4d266cf0c72adc95f080f0a559"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_vertigo.all.sabl",
+        "size":  "13907968",
+        "sha1":  "91ff4dde1adb5b254d7779ab576f7673cc18c0c5"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_vertigo.all.sabs",
+        "size":  "9834496",
+        "sha1":  "6c5a69814cc391c89e7bb7f9b9dd5cb52c1986de"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_village.all.sabl",
+        "size":  "2519040",
+        "sha1":  "13facc16c2d95c0d16aee5cbda8ca2447f1d5310"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_village.all.sabs",
+        "size":  "4710400",
+        "sha1":  "4ef234b731a9bc10bd5ea7602dabfd5ca6a68c7a"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/mpl_vox_multi_team.english.sabs",
+        "size":  "616448",
+        "sha1":  "26e09a9cabdfc4c84b0da62130614c355c065d54"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/wpn_gaz_quad.all.sabl",
+        "size":  "208896",
+        "sha1":  "a996b4e8498157d0142530deb5495068273b6402"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/wpn_gaz_single.all.sabl",
+        "size":  "518144",
+        "sha1":  "787572cb1c5be1f7fa0b6fbc5017498635fc5b44"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/wpn_slingshot.all.sabl",
+        "size":  "2027520",
+        "sha1":  "c02a747d0d1efdc36d5459b980989b96c1cd14fe"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_alcatraz.all.sabl",
+        "size":  "65378304",
+        "sha1":  "70c82ab91af8aba206b3e15995e900905a792fd0"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_alcatraz.all.sabs",
+        "size":  "224202752",
+        "sha1":  "7333098fef91f1e77ba3a83d665fd13fce48b659"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_alcatraz.english.sabl",
+        "size":  "833536",
+        "sha1":  "a6b3f474084b1b46ee2925f9f97a71cfcbb08b73"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_alcatraz.english.sabs",
+        "size":  "291160064",
+        "sha1":  "64110cec63eb4e0df0ee023057d7025adbfc9fa2"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_alcatraz_load.all.sabs",
+        "size":  "3926016",
+        "sha1":  "abcf3d79d990559c5312eaadba8271c0adcceef6"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_alcatraz_load.english.sabs",
+        "size":  "31168512",
+        "sha1":  "4344917047838aab1cc3a55a2fb13c9bde2a4927"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_buried.all.sabl",
+        "size":  "77056000",
+        "sha1":  "7aa5867dcf6db57a21a91fa8b9955fb9d7244c3e"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_buried.all.sabs",
+        "size":  "323911680",
+        "sha1":  "10b2413e7a56d4f8143b9dd3391a847d45d5cf64"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_buried.english.sabs",
+        "size":  "424990720",
+        "sha1":  "46f8cdcd111506fb41901adc522c95ddff4ba9d2"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_buried_load.all.sabs",
+        "size":  "15456256",
+        "sha1":  "2ffc7e6cf87103c752ffdca1ecff29a0e309b900"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_buried_load.english.sabs",
+        "size":  "5988352",
+        "sha1":  "3bfdf029c01e71a201494a0a599bcaaa7e657267"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_classic_transit.all.sabl",
+        "size":  "19374080",
+        "sha1":  "3a0cee84e6ec2fa9d37cc72d45a4a5a703a3cc2d"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_classic_transit.all.sabs",
+        "size":  "5953536",
+        "sha1":  "1ec5fddd401288fb159302e7d0d7de95d2d3936e"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_classic_transit.english.sabs",
+        "size":  "54546432",
+        "sha1":  "fd74797acb5df1af2a318061a1f25de395e0a02a"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_code_post_gfx.all.sabs",
+        "size":  "25309184",
+        "sha1":  "e1576a6ee3c8ee6b24a73794bea190ed6c610026"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_common.all.sabl",
+        "size":  "91109376",
+        "sha1":  "ed4db9887227052eb8e2641eaa900e6493004295"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_common.all.sabs",
+        "size":  "122509312",
+        "sha1":  "7dcbea07a7457447e51c679d070efb62d6300466"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_common.english.sabl",
+        "size":  "399360",
+        "sha1":  "9f64dc4a51c127056e4bab60ea72661ef8d4318f"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_common.english.sabs",
+        "size":  "379510784",
+        "sha1":  "9f7e6f9dd25eb164d0f9e4f715a864a7ec8c6ede"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_highrise.all.sabl",
+        "size":  "41625600",
+        "sha1":  "b40870023ed410189786d9748e617166d9d98a4c"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_highrise.all.sabs",
+        "size":  "57575424",
+        "sha1":  "1786e3183428c5c8664db2db3571ff86e4f0f27a"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_highrise.english.sabs",
+        "size":  "292567040",
+        "sha1":  "47be6f85e4a094d035487a2a90e28d1fe418bb30"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_nuked.english.sabl",
+        "size":  "11579392",
+        "sha1":  "51dbd9a27e440757080baff0bbadca572d81b8e9"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_nuked_real.all.sabl",
+        "size":  "30126080",
+        "sha1":  "69af9973922d38dee6fec44b46f765b812d3c4a0"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_nuked_real.all.sabs",
+        "size":  "37216256",
+        "sha1":  "408f41e67578a4cec933e372712e9b7f9863b8e5"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_nuked_real.english.sabs",
+        "size":  "8282112",
+        "sha1":  "858cb92cfe3850a41d442a8f8360bcb8cd45095f"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_nuked_real_intro.all.sabs",
+        "size":  "2961408",
+        "sha1":  "3de6d09f21b3655ab2556abd97ae03ba44b1ef28"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_patch.all.sabl",
+        "size":  "1652736",
+        "sha1":  "dcf6c4cd7ff0f540ca27c59d4518a78b90d33aa2"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_patch.all.sabs",
+        "size":  "34258944",
+        "sha1":  "eef53d4cf21cfc0ecad4b0c8549c0a1b94288a04"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_patch_ui.all.sabs",
+        "size":  "110592",
+        "sha1":  "013e21008ed54e4f802cb22c011da29a92674718"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_returned_tranzit.all.sabl",
+        "size":  "1054720",
+        "sha1":  "a83e867f118f96e8cb52ef7822132eed3d48df19"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_returned_tranzit.all.sabs",
+        "size":  "32821248",
+        "sha1":  "111dc604155ba729aebf8cd84a8e9de7659fb3ca"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_returned_tranzit.english.sabl",
+        "size":  "11579392",
+        "sha1":  "f31e6814b0a0379dac947a0455221f3dd3ee19bd"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_returned_tranzit.english.sabs",
+        "size":  "18110464",
+        "sha1":  "529955d1f7e883dfc9147e97e65a008eb4c2f1e7"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_rt_load.all.sabs",
+        "size":  "5134336",
+        "sha1":  "5606cd11833bf75aadb1c668298b83519c0a69a3"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_rt_load.english.sabs",
+        "size":  "18995200",
+        "sha1":  "4fb35e856f2ef0274a3786b980a43980452df0c5"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_survival_transit.all.sabl",
+        "size":  "13398016",
+        "sha1":  "5ea5779b24b463065f5c813bf233dc324337aec9"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_tomb.all.sabl",
+        "size":  "103546880",
+        "sha1":  "07b97364bfc5a75cc580df285b82df3b6105c40f"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_tomb.all.sabs",
+        "size":  "481327104",
+        "sha1":  "195afcc0d4eb01a23b20f08bf78b8b2ba5c8b61f"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_tomb.english.sabs",
+        "size":  "393840640",
+        "sha1":  "fba57152e5732beb893a96ce155cd1c7d42aaf81"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_tomb_load.all.sabs",
+        "size":  "29353984",
+        "sha1":  "d169696f3fb8bb52582cbbccdc56943089e94bff"
+    },
+    {
+        "name":  "pluto_t6_full_game/sound/zmb_tomb_load.english.sabs",
+        "size":  "12253184",
+        "sha1":  "7a22ae834c8b7d1c369abdf8c5bc45cb926c8056"
+    },
+    {
+        "name":  "pluto_t6_full_game/video/zm_buried_load.webm",
+        "size":  "54206646",
+        "sha1":  "10dd9cf409074249debdd64a952a94801f78211c"
+    },
+    {
+        "name":  "pluto_t6_full_game/video/zm_highrise_load.webm",
+        "size":  "33631107",
+        "sha1":  "eef1bd9328adec6f8a7b54c472a859f4d5359832"
+    },
+    {
+        "name":  "pluto_t6_full_game/video/zm_prison_load.webm",
+        "size":  "62743420",
+        "sha1":  "8068bd29704578f33a54157782bc20de484fb987"
+    },
+    {
+        "name":  "pluto_t6_full_game/video/zm_tomb_ee.webm",
+        "size":  "25234901",
+        "sha1":  "a4f5f989318adfb71980e1a8cf32d230103367ad"
+    },
+    {
+        "name":  "pluto_t6_full_game/video/zm_tomb_load.webm",
+        "size":  "68728988",
+        "sha1":  "f16db9de1ce416bab63ca36686287748c88360ed"
+    },
+    {
+        "name":  "pluto_t6_full_game/binkw32.dll",
+        "size":  "215040",
+        "sha1":  "3f4449ac266444e8ec69023ee11f02d82a7468a2"
+    },
+    {
+        "name":  "pluto_t6_full_game/codlogo.bmp",
+        "size":  "115254",
+        "sha1":  "3ede9d85bcd5905ba7dcfd470874e7be38d39aca"
+    },
+    {
+        "name":  "pluto_t6_full_game/localization_mp.txt",
+        "size":  "2482",
+        "sha1":  "f863b76a935c550ca6444e737805451e44c3c3cf"
+    },
+    {
+        "name":  "pluto_t6_full_game/localization_zm.txt",
+        "size":  "2482",
+        "sha1":  "f863b76a935c550ca6444e737805451e44c3c3cf"
+    }
+]
