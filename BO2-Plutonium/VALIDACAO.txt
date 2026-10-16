@@ -42,15 +42,39 @@ VALIDACOES DO INSTALADOR E DOS ARQUIVOS
 - Rejeicao de HTML no lugar de executavel e de SHA256 incorreto:
   verificadas, preservando o arquivo anterior.
 
+TESTE COM AMIGOS - RELATO CONFIRMADO PELO USUARIO EM 15/10/2026
+
+- O usuario e seus amigos utilizaram Plutonium r5369 em modo LAN
+  sobre uma rede compartilhada no Radmin VPN.
+- O anfitriao iniciou o mapa por CUSTOM GAMES e os amigos conectaram
+  diretamente ao IP do Radmin do anfitriao pela porta UDP 4976.
+- A tentativa anterior usava a porta 3074; a configuracao net_port do
+  jogo e o processo local mostraram 4976 para a conexao direta.
+- Os amigos conseguiram entrar na partida. Ao entrarem no meio da
+  rodada ficaram como espectadores; o usuario confirmou que passaram
+  a jogar depois da troca de rodada.
+- No PC do anfitriao foram identificados IPs de adaptadores virtuais
+  do VirtualBox e Hyper-V sendo selecionados pelo jogo. Depois de
+  desativar esses adaptadores sem uso e reabrir o jogo, o endereco
+  Ethernet foi selecionado. O Radmin foi reativado para o teste em LAN.
+- Consultas de leitura ao roteador identificaram endereco WAN na faixa
+  de CGNAT, diferente do IP publico observado. Os convites normais pela
+  internet apresentaram erro de sessao; foi adotada a alternativa Radmin.
+- O sucesso da partida e da entrada apos a rodada foi relatado pelo
+  usuario. Nao se trata de um teste de gameplay executado pelo CI.
+
 LIMITES DO QUE FOI TESTADO
 
-Nao foi feito login em uma conta do Plutonium nem testada uma partida
-online com amigos ou servidores. A verificacao em LAN cobriu a
-inicializacao dos modos; nao cobriu uma partida completa ou todos os mapas.
+A inicializacao local dos modos foi verificada diretamente. O teste
+multijogador via Radmin foi confirmado pelo usuario, conforme descrito
+acima; servidores publicos e todos os mapas nao foram validados.
+O uso do Radmin em modo LAN nao confirma que convites online normais
+funcionem em todas as conexoes ou que todos os jogadores possam hospedar.
 Os componentes Microsoft ja estavam presentes neste PC, portanto a
 instalacao desses componentes em um Windows limpo nao foi exercitada.
-Outros computadores, redes e mudancas futuras nas fontes nao foram
-testados. Esses pontos impedem prometer funcionamento de 100% dos casos.
+As demais combinacoes de computadores, redes e mudancas futuras nas
+fontes nao foram testadas. Esses pontos impedem prometer funcionamento
+de 100% dos casos.
 
 O ZIP contem apenas scripts, instrucoes e metadados de download.
 Nenhuma conta, senha, token ou configuracao pessoal foi incluida.

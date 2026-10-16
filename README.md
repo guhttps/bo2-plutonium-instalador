@@ -34,6 +34,44 @@ O pacote completo contém 13 arquivos. A abertura verifica os arquivos necessár
 
 A campanha não faz parte deste pacote.
 
+## Jogar Zombies com amigos pelo Radmin VPN
+
+Este foi o caminho confirmado pelo usuário para jogar com amigos em PCs diferentes: **Radmin VPN + Play in LAN mode + CUSTOM GAMES + conexão direta pela porta 4976**. O Radmin cria uma rede virtual entre os participantes, mesmo em casas diferentes. A configuração dessa rede é feita separadamente da instalação do jogo.
+
+### Preparar os PCs
+
+1. Todos instalam e abrem o [Radmin VPN oficial](https://www.radmin-vpn.com/help/index.html).
+2. Quem vai hospedar cria uma rede com nome e senha. Os amigos entram **nessa mesma rede** pelo Radmin e conferem se os participantes aparecem online.
+3. Se o adaptador do Radmin estiver desativado, use **Win + R → `ncpa.cpl` → botão direito em Radmin VPN → Ativar**.
+4. Com o Radmin conectado, todos fecham o BO2 e abrem **Black Ops II Zombies** no launcher pela seta ao lado de Play → **Play in LAN mode**. Essa opção desativa o anticheat, conforme o aviso do launcher.
+
+O modo LAN sozinho atende à rede local. Para PCs em casas diferentes, este procedimento usa a rede virtual compartilhada do Radmin. Veja as [instruções do Radmin](https://www.radmin-vpn.com/help/index.html) e a [conexão por IP no Plutonium](https://plutonium.pw/docs/custom-games/#connecting-via-an-ip-address).
+
+### Hospedar e conectar
+
+1. O anfitrião entra em **CUSTOM GAMES**, escolhe o mapa e inicia a partida.
+2. Aguarda o personagem aparecer no mapa e mantém a partida **despausada** enquanto os amigos conectam.
+3. Os amigos abrem o console do BO2 e executam o comando abaixo, substituindo `IP_DO_ANFITRIAO_NO_RADMIN` pelo endereço **26.x.x.x exibido ao lado do PC de quem hospeda no Radmin**:
+
+   ```text
+   connect IP_DO_ANFITRIAO_NO_RADMIN:4976
+   ```
+
+Use o IP do anfitrião. No teste confirmado, a conexão direta em LAN funcionou pela **UDP 4976**. A porta **3074** aparece nas instruções dos convites online do T6; são procedimentos diferentes. Se a porta do jogo tiver sido alterada, o anfitrião pode consultar `net_port` no console e informar o valor correto aos amigos.
+
+### Entrou como espectador?
+
+Quem entra com uma rodada já em andamento pode ficar como espectador até a próxima. **Os amigos permanecem conectados, e o anfitrião termina a rodada eliminando os zumbis restantes.** Se entraram no round 1, devem aparecer para jogar no início do round 2. Esse comportamento também foi confirmado pelo usuário e está descrito no [fórum do Plutonium](https://forum.plutonium.pw/topic/10836/hosting-joining-zombies-custom-games/3).
+
+### Se a conexão falhar
+
+- **Só aparece “Attempting to connect”:** confira o IP do anfitrião no Radmin, a porta indicada por `net_port`, a mesma rede do Radmin em todos os PCs, o modo LAN e a partida de CUSTOM GAMES já iniciada e despausada.
+- **“Unable to join game session” nos convites online:** o aviso pode envolver firewall, escolha de adaptador ou roteador. Em conexões com CGNAT, encaminhar uma porta apenas no roteador doméstico pode não bastar; a conexão via Radmin foi a alternativa testada neste caso. O [guia de convites do T6](https://plutonium.pw/docs/custom-games/#t6) descreve o procedimento online normal.
+- **O jogo mostra o IP de uma rede virtual sem uso:** compare **OPTIONS → SYSTEM INFO → INTERNAL** com os endereços exibidos por `ipconfig`. No PC utilizado houve seleção de adaptadores do VirtualBox e Hyper-V. Para investigar esse caso, feche o jogo, desative temporariamente apenas adaptadores virtuais que você não esteja usando e reabra o jogo. Mantenha ativos a conexão Ethernet/Wi-Fi usada para internet e o Radmin usado pelo grupo. Reative os adaptadores quando precisar dos respectivos programas.
+- **A partida pausa enquanto só o anfitrião está jogando:** essa observação isolada não confirma uma falha de rede. Faça o teste de entrada com a partida despausada.
+
+Permita o executável `%LOCALAPPDATA%\Plutonium\bin\plutonium-bootstrapper-win32.exe` no firewall para o perfil de rede utilizado. A [ajuda do Radmin](https://www.radmin-vpn.com/help/index.html) também explica como testar a comunicação entre participantes pelo comando Ping do aplicativo.
+
 ## Se o download for interrompido
 
 Na janela, **Interromper** salva o andamento do download. Use **Continuar instalação** ou abra `INSTALAR.cmd` novamente, selecione a **mesma pasta** e inicie a instalação. Os arquivos completos são conferidos e reaproveitados, e as transferências com controle `.aria2` são retomadas. Mantenha esses arquivos de controle enquanto o download estiver incompleto.
@@ -72,7 +110,9 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\instalar.ps1 -PastaJog
 
 Foram verificados o download completo, a integridade de todos os blocos, o fluxo de instalação, a retomada de uma transferência interrompida, o reparo de um arquivo corrompido e a inicialização de Multiplayer e Zombies em LAN com Plutonium r5369.
 
-**Partidas online com amigos ainda não foram testadas.** Cada pessoa precisa fazer login no launcher; a conexão entre jogadores depende da rede de cada PC. A instalação de componentes Microsoft em um Windows limpo também não foi exercitada, pois eles já estavam presentes no PC utilizado.
+**O usuário confirmou o funcionamento de uma partida de Zombies com amigos via Radmin VPN, modo LAN e conexão direta pela UDP 4976**, incluindo a entrada dos espectadores na rodada seguinte. Esse é um teste manual relatado pelo usuário. Os convites online normais apresentaram falhas de conexão; a validação via Radmin não confirma o funcionamento de servidores públicos, de todos os mapas ou de todas as redes.
+
+Cada pessoa faz login no launcher com sua própria conta. A instalação de componentes Microsoft em um Windows limpo também não foi exercitada, pois eles já estavam presentes no PC utilizado.
 
 Confira o [relatório de validação](BO2-Plutonium/VALIDACAO.txt) e as [instruções completas](BO2-Plutonium/LEIA-ME.txt).
 
