@@ -28,6 +28,16 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          fetch-depth: 0
+
+      - name: Verificar privacidade dos arquivos e do historico
+        run: |
+          powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\verificar-privacidade.ps1
+          if ($LASTEXITCODE -ne 0) { throw 'A verificacao de privacidade dos arquivos falhou.' }
+          powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\verificar-privacidade.ps1 -History
+          if ($LASTEXITCODE -ne 0) { throw 'A verificacao de privacidade do historico falhou.' }
+          powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\tests\verificar-privacidade.ps1
+          if ($LASTEXITCODE -ne 0) { throw 'Os testes de privacidade falharam.' }
 
       - name: Gerar ZIP e testar os arquivos extraidos
         run: .\criar-pacote.ps1

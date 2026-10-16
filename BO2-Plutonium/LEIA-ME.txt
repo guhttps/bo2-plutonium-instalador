@@ -86,6 +86,14 @@ cada amigo precisa entrar na sua propria conta do Plutonium.
 Conectividade entre amigos e servidores depende da rede de cada PC.
 Integridade dos arquivos nao substitui um teste de partida online.
 
+PRIVACIDADE AO COMPARTILHAR PEDIDOS DE AJUDA
+
+Os registros da instalacao ficam no PC e podem conter caminhos pessoais.
+Antes de publicar logs ou capturas, revise o conteudo e substitua IPs,
+nomes de usuario, caminhos e senhas por marcadores. Envie somente o trecho
+necessario para explicar o erro. As instrucoes do pacote usam exemplos
+genericos; os dados da rede de cada grupo sao configurados localmente.
+
 JOGAR ZOMBIES COM AMIGOS VIA RADMIN VPN - PROCEDIMENTO CONFIRMADO
 
 O usuario confirmou uma partida com amigos em PCs diferentes usando

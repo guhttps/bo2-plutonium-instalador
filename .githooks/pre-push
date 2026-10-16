@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+if command -v powershell.exe >/dev/null 2>&1; then
+  privacy_shell=powershell.exe
+elif command -v pwsh >/dev/null 2>&1; then
+  privacy_shell=pwsh
+else
+  echo 'PowerShell necessario para verificar a privacidade antes do envio.' >&2
+  exit 1
+fi
+"$privacy_shell" -NoLogo -NoProfile -ExecutionPolicy Bypass -File ./verificar-privacidade.ps1 -History

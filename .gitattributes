@@ -3,6 +3,9 @@
 *.cs text eol=lf
 *.md text eol=lf
 *.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.githooks/* text eol=lf
 .gitattributes text eol=lf
 .gitignore text eol=lf
 # These bytes are distributed directly or checked against fixed hashes.

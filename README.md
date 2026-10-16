@@ -90,6 +90,12 @@ O launcher é baixado do fornecedor. Os arquivos do jogo vêm de um arquivo hist
 
 O código do assistente está neste repositório; os dados do jogo são baixados durante a instalação. Este projeto é independente da equipe do Plutonium.
 
+## Privacidade
+
+As instruções públicas usam marcadores de IP e pastas genéricas. O histórico, a documentação, os ZIPs e os logs publicados foram revisados. Uma checagem adicional procura dados pessoais e credenciais antes de gerar pacotes; os hooks locais e o CI também verificam o conteúdo e o histórico. A imagem da interface tem hash aprovado após revisão visual.
+
+Ao contribuir, ative os hooks neste clone com `git config core.hooksPath .githooks`. Veja o [escopo da auditoria, as proteções e seus limites](PRIVACIDADE.md). O repositório continua público e essas medidas não tornam a conexão de internet anônima.
+
 ## Pasta de instalação
 
 O jogo fica em:

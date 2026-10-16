@@ -36,6 +36,9 @@ foreach ($name in $pins.Keys) {
     }
 }
 
+& (Join-Path $PSScriptRoot 'verificar-privacidade.ps1') -PackagePath $SourcePath
+if ($LASTEXITCODE -ne 0) { throw 'O pacote foi bloqueado pela verificacao de privacidade.' }
+
 Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
 New-Item -ItemType Directory -Path $OutputPath -Force | Out-Null
 $verificationPath = Join-Path $OutputPath ('.verificacao-zip-'+[guid]::NewGuid().ToString('N'))
